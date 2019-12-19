@@ -1,0 +1,132 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body#form-signin{
+    -padding-top: 40px;
+    -padding-bottom: 40px;
+    background: #F0F0F0 url(images/default.png) top center repeat;
+}
+
+
+.form-signin  a {
+    font-size: 15px;
+    padding-top: 5px 
+}
+
+.success-notification {
+    position: fixed;
+    bottom: 5px;
+    right: 20px;
+    max-width: 400px;
+    z-index: 999999;
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 15% auto;
+    background-color: #ffffff;
+    border: solid 1px #CCC;
+    width: 330px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    box-shadow: 0 0 3px rgba(122,122,122,0.3);
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+
+.form-signin-heading{
+    margin: 5px 0px 10px 0px !important;
+    padding-bottom:10px;
+}
+
+.form-signin .checkbox {
+    font-weight: normal;
+}
+.form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+.form-signin input[type="text"] {
+    -margin-bottom: -1px !important;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+    margin-bottom: 0px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.form-signin #input-group-addon1{
+    margin-bottom: -1px !important;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+} 
+
+.form-signin #input-group-addon2{
+    -margin-bottom: -1px !important;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    margin-bottom: 10px;
+} 
+
+@media (max-width:767px){
+
+    body#form-signin {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background: none;
+    }
+
+    .form-signin {
+        -max-width: 330px;
+        padding: 15px;
+        margin: 30% auto;
+        border: 0px;
+        width: auto;
+        box-shadow: none;
+    }
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+}
+
+.row {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto; 
+}
+
+form {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        border: none;
+    }

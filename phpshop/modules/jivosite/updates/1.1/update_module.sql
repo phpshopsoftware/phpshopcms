@@ -1,0 +1,1 @@
+ALTER TABLE `phpshop_modules_jivosite_system` ADD `display_name` varchar(64) NOT NULL;

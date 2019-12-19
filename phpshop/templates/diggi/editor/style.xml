@@ -1,0 +1,131 @@
+<?xml version = "1.0" encoding = "windows-1251" ?>
+<style>
+    <element>
+        <name>Цвет</name>
+        <description>Цвет</description>
+        <content>Цветовая гамма сайта</content>
+        <var>
+            <name>theme</name>
+            <type>theme</type>
+        </var>
+    </element>
+    <element>
+        <name>#header-area</name>
+        <description>Шапка</description>
+        <content>Изображение в шапке</content>
+        <var>
+            <name>background</name>
+            <type>image</type>
+        </var>
+    </element>
+    <element>
+        <name>#footer-area</name>
+        <description>Подвал</description>
+        <content>Изображение в подвале</content>
+        <var>
+            <name>background</name>
+            <type>image</type>
+        </var>
+    </element>
+    <element>
+        <name>#header-area,#footer-area</name>
+        <description>Фон</description>
+        <content>Цвет заливки шапки и подвала</content>
+        <var>
+            <name>background-color</name>
+            <type>color</type>
+            <theme>true</theme>
+        </var>
+    </element>
+    <element>
+        <name>.header-color,.header-color a,.header-color .btn,.header-color h4,.header-links a</name>
+        <description>Текст</description>
+        <content>Цвет текста и ссылок в шапке</content>
+        <var>
+            <name>color</name>
+            <type>color</type>
+            <important>true</important>
+            <theme>true</theme>
+        </var>
+    </element>
+    <element>
+        <name>.product-info-box .heading:before, .product-head, .side-heading, .panel-default > .panel-heading,.panel-success > .panel-heading,.product-col .btn-cart:hover,.product-info .product-details .btn-cart:hover,.btn-primary, .pagination > .active > a</name>
+        <description>Блоки</description>
+        <content>Цвет залики блоков меню</content>
+        <var>
+            <name>background</name>
+            <type>color</type>
+            <important>true</important>
+        </var>
+    </element>
+    <element>
+        <name>.comments-raiting-wrapper, .product-col .price span.price-new, .product-col h4 a:hover, .product-col h4 a:focus,.product-info .product-details .manufacturer,.product-info .product-details .price-new,.breadcrumb li.active, .breadcrumb li b</name>
+        <description>Цена</description>
+        <content>Цвет цены товара</content>
+        <var>
+            <name>color</name>
+            <type>color</type>
+            <important>true</important>
+        </var>
+    </element>
+    <element>
+        <name>#main-menu > .container .navbar-collapse, #main-menu > .container .navbar-header, #main-menu.navbar-fixed-top, .header-wrap.inner #main-menu.navbar-fixed-top</name>
+        <description>Навигация</description>
+        <content>Цвет основной навигации</content>
+        <var>
+            <name>background</name>
+            <type>color</type>
+            <important>true</important>
+        </var>
+    </element>
+    <element>
+        <name>.copyright, #cart .dropdown-menu, .btn-success, .btn-info, .btn-main, .btn-primary, .pagination > .active > a</name>
+        <description>Кнопки</description>
+        <content>Цвет основных кнопок</content>
+        <var>
+            <name>background</name>
+            <type>color</type>
+            <important>true</important>
+        </var>
+    </element>
+    <element>
+        <name>#main-menu .navbar-form .form-control, #main-menu .navbar-form .btn, #main-menu .navbar-nav > li > a:hover, .dropdown-menu.mega-menu, #main-menu .navbar-nav > li.open a,.main-navbar-list-catalog-wrapper, .user-dropdown > .dropdown-menu,.nav-catalog-dropdown-link.open, .sidebar-nav ul.active, .sidebar-nav ul.active li a, #main-menu .navbar-nav > li.active a</name>
+        <description>Меню</description>
+        <content>Меню каталогов</content>
+        <var>
+            <name>background</name>
+            <type>color</type>
+            <important>true</important>
+        </var>
+    </element>
+    <element>
+        <name>.main-navbar-list-catalog-wrapper.open li a:hover, .main-navbar-list-catalog-hidden.active,.user-dropdown > .dropdown-menu li a:hover,.main-navbar-list-catalog-wrapper.open li a.active, .sidebar-nav > li > ul.active > li.active > a, .sidebar-nav ul.active li:hover a, .btn-main:hover</name>
+        <description>Подменю</description>
+        <content>Подменю активное</content>
+        <var>
+            <name>background</name>
+            <type>color</type>
+            <important>true</important>
+        </var>
+    </element>
+    <element>
+        <name>.product-col .btn-cart,.product-info .product-details .btn-cart</name>
+        <description>В корзину</description>
+        <content>Кнопка добавления в корзину</content>
+        <var>
+            <name>background</name>
+            <type>color</type>
+            <important>true</important>
+        </var>
+    </element>
+    <element>
+        <name>.product-info-box .heading, .sidebar-nav > li > a:hover, .news-list a:hover, .description-link:hover, .product-filter .display label.active,.dl-horizontal.total,.product-info a, .product-col .btn-wishlist:hover, .product-col .btn-wishlist:focus, .product-col .btn-compare:hover, .product-col .btn-compare:focus, a</name>
+        <description>Ссылки </description>
+        <content>Цвет ссылок в тексте</content>
+        <var>
+            <name>color</name>
+            <type>color</type>
+            <important>false</important>
+        </var>
+    </element>
+</style>   

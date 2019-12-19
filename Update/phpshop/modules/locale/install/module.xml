@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.2</version>
+    <name>Locale</name>
+    <description>Модуль второго языка сайта.</description>
+    <category>form,template</category>
+    <adminmenu>
+        <title>Locale</title>
+        <capability>true</capability>
+    </adminmenu>
+</module>

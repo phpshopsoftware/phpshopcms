@@ -1,0 +1,638 @@
+/* Large Devices Styles Starts */
+
+@media (min-width: 1200px) {
+
+/* Header Top Styles Starts */
+
+	.header-top{
+		top:40px;
+	}	
+
+/* Cart Styles Starts */
+
+		#cart .dropdown-menu {
+			width:250px;
+		}
+	
+/* Main Menu Styles Starts */
+
+	#main-menu{
+		top:110px;
+	}
+		#main-menu.navbar > .container, 
+		#main-menu.navbar > .container > .navbar-collapse{
+			padding-left:0;
+			padding-right:0;
+		}
+			#main-menu .navbar-nav > li > a{
+				padding:18px;
+				font-size:16px;
+			}
+			#main-menu .navbar-nav > li:first-of-type > a{
+				padding-left:40px;
+				-webkit-border-radius:5px 0 0 5px;
+				   -moz-border-radius:5px 0 0 5px;
+				        border-radius:5px 0 0 5px;
+			}
+			
+/* Search Styles Starts */
+
+	#main-menu .navbar-form{
+		margin-top:0;
+		margin-bottom:0;
+	}
+		#main-menu .navbar-form .form-control{
+			padding:17px 10px 17px 30px;
+			height:56px;
+			font-size:16px;
+		}
+		#main-menu .navbar-form .btn{
+			padding:15px 20px;
+			font-size:18px;
+		}
+		
+/* Slider Section Styles Starts */
+
+	#main-carousel .carousel-control{
+		top: 45%;
+	}
+		#main-carousel .carousel-control .fa {
+			font-size: 36px;
+		}
+		#main-carousel .carousel-control.left{
+			left:8%;
+		}
+		#main-carousel .carousel-control.right{
+			right:8%;
+		}
+	#main-carousel .carousel-indicators{
+		bottom:20px;
+	}
+	
+	#main-carousel .carousel-caption{
+		bottom:60px;
+		font-size:18px;
+		line-height:32px;
+	}
+	#main-carousel .carousel-caption h1{
+		font-size:48px;
+	}
+	#main-carousel .carousel-caption h2{
+		font-size:42px;
+	}
+	
+}
+
+/* Medium Devices Styles Starts */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+/* Header Top Styles Starts */
+
+	.header-top{
+		top:30px;
+	}	
+
+/* Cart Styles Starts */
+
+		#cart .dropdown-menu {
+			width:250px;
+		}
+	
+/* Main Menu Styles Starts */
+
+	#main-menu{
+		top:90px;
+	}
+		#main-menu.navbar > .container, 
+		#main-menu.navbar > .container > .navbar-collapse{
+			padding-left:0;
+			padding-right:0;
+		}
+			#main-menu .navbar-nav > li > a{
+				padding:18px 14px;
+				font-size:15px;
+			}
+			#main-menu .navbar-nav > li:first-of-type > a{
+				padding-left:30px;
+				-webkit-border-radius:5px 0 0 5px;
+				   -moz-border-radius:5px 0 0 5px;
+				        border-radius:5px 0 0 5px;
+			}
+			
+/* Search Styles Starts */
+
+	#main-menu .navbar-form{
+		margin-top:0;
+		margin-bottom:0;
+	}
+		#main-menu .navbar-form .form-control{
+			padding:17px 10px 17px 20px;
+			height:56px;
+			font-size:15px;
+		}
+		#main-menu .navbar-form .btn{
+			padding:16px;
+			font-size:17px;
+		}
+		
+/* Slider Section Styles Starts */
+
+	#main-carousel .carousel-control{
+		top: 55%;
+	}
+		#main-carousel .carousel-control .fa {
+			font-size: 36px;
+		}
+		#main-carousel .carousel-control.left{
+			left:8%;
+		}
+		#main-carousel .carousel-control.right{
+			right:8%;
+		}
+	#main-carousel .carousel-indicators{
+		bottom:10px;
+	}
+	
+	#main-carousel .carousel-caption{
+		bottom:40px;
+		font-size:16px;
+		line-height:26px;
+	}
+	#main-carousel .carousel-caption h1{
+		font-size:38px;
+	}
+	#main-carousel .carousel-caption h2{
+		font-size:32px;
+	}		
+		
+/* Products Box Styles */
+
+	.product-col.list .image{
+		padding:40px 30px 10px 0;
+	}
+	.product-col .btn{	
+		margin-top:5px;
+	}
+	
+/* Product Carousel Styles Starts */	
+
+	.product-carousel .owl-controls .owl-buttons .owl-prev{
+		left:89%;
+	}		
+
+/* Footer Links Styles Starts */
+
+	.footer-links h5{
+		margin:10px 0;
+	}
+
+/* Copyright Styles Starts */
+	
+	.copyright{
+		font-size:13px;
+	}
+		.copyright p.pull-left, .copyright ul{
+			text-align:center;
+			float:none !important;
+		}
+
+}
+
+/* Small Devices Styles Starts */
+
+@media (min-width: 768px) and (max-width: 991px) {
+	
+/* Header Top Styles Starts */
+	.header-wrap.inner .header-top {
+		margin-top: 0;
+	}
+	.header-top{
+		top:15px;
+	}	
+
+/* Cart Styles Starts */
+		#logo {
+			float: none;
+			text-align: center;
+		}
+		#logo img.img-responsive {
+			display: inline-block;
+		}
+		#cart .dropdown-menu {
+			width:250px;
+		}
+	
+/* Main Menu Styles Starts */
+
+	#main-menu{
+		top:115px;
+	}
+		#main-menu.navbar > .container, 
+		#main-menu.navbar > .container > .navbar-collapse{
+			padding-left:0;
+			padding-right:0;
+		}
+			#main-menu .navbar-nav > li > a{
+				padding:18px 15px;
+				font-size:15px;
+			}
+			#main-menu .navbar-nav > li:first-of-type > a{
+				padding-left:30px;
+				-webkit-border-radius:5px 0 0 5px;
+				   -moz-border-radius:5px 0 0 5px;
+				        border-radius:5px 0 0 5px;
+			}
+			
+/* Search Styles Starts */
+
+	#main-menu .navbar-form{
+		margin-top:0;
+		margin-bottom:0;
+	}
+		#main-menu .navbar-form .form-control{
+			padding:17px 10px 17px 20px;
+			height:56px;
+			font-size:15px;
+		}
+		#main-menu .navbar-form .btn{
+			padding:16px;
+			font-size:17px;
+		}
+		
+/* Slider Section Styles Starts */
+
+	#main-carousel .carousel-control{
+		top: 65%;
+	}
+		#main-carousel .carousel-control .fa {
+			font-size: 22px;
+		}
+		#main-carousel .carousel-control.left{
+			left:8%;
+		}
+		#main-carousel .carousel-control.right{
+			right:8%;
+		}
+	#main-carousel .carousel-indicators{
+		bottom:5px;
+	}
+	
+	#main-carousel .carousel-caption{
+		bottom:0;
+		font-size:14px;
+		line-height:24px;
+	}
+	#main-carousel .carousel-caption h1{
+		margin-bottom:10px;
+		font-size:28px;
+	}
+	#main-carousel .carousel-caption h2{
+		margin-top:10px;
+		font-size:22px;
+	}	
+	
+/* Products Box Styles */
+
+	.product-col.list .image{
+		padding:40px 30px 10px 0;
+	}	
+	
+/* Product Carousel Styles Starts */	
+
+	.product-carousel .row{
+		margin-left:-3px;
+		margin-right:-3px;
+	}
+	.product-carousel .col-xs-12{
+		padding-left:0;
+		padding-right:0;
+	}
+	.product-carousel .owl-wrapper-outer{
+	}
+    .product-carousel #owl-product .item{
+		padding-left:3px;
+		padding-right:3px;
+		text-align:center;
+    }
+	.product-carousel .owl-controls .owl-buttons .owl-prev{
+		left:86%;
+	}
+	.product-col .btn-wishlist, 
+	.product-col .btn-compare{
+		margin-left:0;
+	}					
+	
+/* Side Products Lists Styles Starts */
+
+	.side-products-list h5,
+	.side-products-list .price{
+		float:none;
+	}
+	
+/* Pagination Styles Starts */
+
+	.pagination{
+		margin-bottom:15px; 
+	}
+	.results{	
+		padding-top:5px;
+	}
+	
+/* Footer Links Styles Starts */
+
+	.footer-links .col-xs-12.last{
+		margin-top:20px;
+	}
+		.footer-links h5{
+			margin:10px 0;
+		}
+	
+/* Copyright Styles Starts */
+	
+	.copyright ul{
+		margin-top:20px;
+		margin-bottom:20px;
+	}
+		.copyright p.pull-left, 
+		.copyright ul{
+			text-align:center;
+			float:none !important;
+		}
+		
+/* Genric Styles Starts */
+
+	.img-center-sm{
+		margin-left:auto;
+		margin-right:auto;
+	}		
+	
+}
+
+/* Extra Small Devices Styles Starts */
+
+@media (max-width: 767px) {
+
+/* Responsive Image Styles Starts */
+
+	.logo, 
+	.col3-banners .img-responsive, 
+	.col2-banners .img-responsive, 
+	.product-col .img-responsive{
+		margin:0 auto;
+	}
+	
+/* Header Top Styles Starts */
+	.header-wrap.inner .header-top {
+		margin-top: 0;
+	}
+	.header-top{
+		top:15px;
+	}	
+		#logo{
+			float: none;
+			text-align: center;
+		}
+		.logo{
+			margin-bottom:20px;
+		}
+		#logo img.img-responsive {
+			display: inline-block;
+		}
+
+/* Cart Styles Starts */
+
+	#cart.pull-right{
+		margin-top:10px;
+		display:block;
+		text-align:center;		
+	}
+		#cart.pull-right, 
+		#cart .btn{
+			float:none!important;
+		}
+	
+/* Main Menu Styles Starts */
+
+	#main-menu{
+		top:115px;
+	}
+		#main-menu.navbar > .container{
+			margin-left:10px;
+			margin-right:10px;
+		}
+		#main-menu .navbar-toggle, 
+		#main-menu .navbar-toggle:focus {
+			color:#fff;
+		}
+		#main-menu .dropdown-inner ul {
+			display:block;
+		}
+			
+/* Search Styles Starts */
+
+	#main-menu .navbar-form{
+		margin-top:0;
+		margin-bottom:0;
+	}
+		#main-menu .navbar-form .form-control{
+			padding:17px 10px 17px 20px;
+			height:56px;
+			font-size:15px;
+		}
+		#main-menu .navbar-form .btn{
+			padding:16px;
+			font-size:17px;
+		}
+		
+/* Slider Section Styles Starts */
+
+	#main-carousel .carousel-control{
+		top: 65%;
+	}
+		#main-carousel .carousel-control .fa {
+			font-size: 22px;
+		}
+		#main-carousel .carousel-control.left{
+			left:8%;
+		}
+		#main-carousel .carousel-control.right{
+			right:8%;
+		}
+	#main-carousel .carousel-indicators{
+		bottom:5px;
+	}
+	
+	#main-carousel .carousel-caption{
+		bottom:0;
+		font-size:14px;
+		line-height:24px;
+	}
+	#main-carousel .carousel-caption h1{
+		margin-bottom:10px;
+		font-size:28px;
+	}
+	#main-carousel .carousel-caption h2{
+		margin-top:10px;
+		font-size:22px;
+	}
+	
+/* Latest Products Styles Starts */
+
+	.product-head, .product-col{
+		text-align:center;
+	}
+		.product-col.list .image{
+			float:none;
+			padding:0;
+		}
+		
+/* Product Carousel Styles Starts */	
+
+	.product-head{
+		font-size:18px;
+	}
+	#owl-product .owl-controls .owl-buttons .owl-prev, 
+	#owl-product .owl-controls .owl-buttons .owl-next{
+		top:-56px;
+		font-size:20px;
+	}
+	.product-carousel .owl-controls .owl-buttons .owl-prev{
+		left:15px;
+	}	 
+	.product-carousel .owl-controls .owl-buttons .owl-next{
+		right:20px;
+	}		
+			
+/* Three Column Banner Styles Starts */
+
+	.col3-banners{
+		margin-bottom:10px;
+	}
+		.col3-banners li + li{
+			margin-top:20px;
+		}
+
+/* Two Column Banner Styles Starts */
+
+	.col2-banners{
+		margin-bottom:10px;
+	}
+		.col2-banners li + li{
+			margin-top:20px;
+		}		
+		
+/* Page Content Styles Starts */
+
+	.page-box h3{
+		margin-top:20px;
+	}		
+	
+/* Tabs Styles Starts */
+
+	.tabs-panel .nav-tabs > li{
+		display:block;
+		float:none;
+	}
+	
+/* Pagination Styles Starts */
+
+	.pagination-block{
+		text-align:center;
+	}
+		.pagination{
+			margin-bottom:10px; 
+		}
+	.results{
+		text-align:center;
+		padding-top:0;
+		margin-bottom:15px;
+	}	
+	
+/* Footer Top Styles Starts */
+
+	.footer-top{
+		text-align:center;
+	}
+		.foot-sm-links{
+			padding-top:0;
+			margin-bottom:20px;
+		}
+			.footer-top form .form-control{
+				padding:7px 14px;
+				height:36px;
+			}
+			.footer-top form .btn{
+				padding:7px 10px;
+				font-size:14px;
+			}
+
+/* Footer Links Styles Starts */
+	
+	.footer-links{
+		text-align:center;
+	}
+	.footer-links .col-xs-12{
+		margin-bottom:20px;
+	}
+	.footer-links.last .col-xs-12{
+		margin-bottom:0;
+	}
+	.footer-links h5{
+		margin:10px 0;
+	}
+
+/* Copyright Styles Starts */
+	
+	.copyright{
+	}
+		.copyright p.pull-left, .copyright ul{
+			text-align:center;
+			float:none !important;
+		}
+			.copyright li{
+				padding:4px 2px;
+			}
+			
+/* Genric Styles Starts */
+
+	.img-center-xs{
+		margin-left:auto;
+		margin-right:auto;
+	}			
+	
+}
+
+/* Extremely Small Devices Styles Starts */
+
+@media (max-width: 478px) {
+	
+/* Header Top Styles Starts */
+
+	.header-top{
+		top:15px;
+	}	
+		.logo{
+			margin-bottom:0;
+		}	
+	
+/* Currency & Languages Drop Down Styles Starts */
+
+	.header-top div.col-xs-12.text-center, 
+	.header-top div.col-xs-12:last-of-type{
+		display:none;
+	}
+	
+/* Cart Styles Starts */
+
+	#cart.pull-right{
+		margin-top:0;
+	}
+
+/* Main Menu Styles Starts */
+
+	#main-menu{
+		top:115px;
+	}	
+		
+}

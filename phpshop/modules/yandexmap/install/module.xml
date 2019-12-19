@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.0</version>
+    <name>Yandex Map</name>
+    <faqlink>http://faq.phpshop.ru/page/yandex-map.html</faqlink>
+    <description>Модуль Яндекс.Карты.</description>
+    <category>form</category>
+    <adminmenu>
+        <title>Yandex Map</title>
+        <capability>true</capability>
+    </adminmenu>
+</module>

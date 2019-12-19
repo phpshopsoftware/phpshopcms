@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="windows-1251">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>404 Not found</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <style>
+            html {
+                position: relative;
+                min-height: 100%;
+            }
+            body {
+                margin-bottom: 60px;
+            }
+            .footer {
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                height: 60px;
+                background-color: #f5f5f5;
+            }
+            .container {
+                width: auto;
+                max-width: 680px;
+                padding: 0 15px;
+            }
+            .container .text-muted {
+                margin: 20px 0;
+            }
+            a .glyphicon{
+                padding-right: 3px;
+            }
+        </style>
+        <script type="text/javascript">
+  var GOOG_FIXURL_LANG = 'ru';
+</script>
+    </head>
+    <body role="document">
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <div class="container">
+            <div class="page-header">
+                <h1>404 Not found</h1>
+            </div>
+            <p class="lead">Страница не найдена. Переход на главную страницу сайта произойдет через <span>10</span> секунд.</p></p>
+            <p>Нажмите <a href="/" class="btn btn-info btn-xs"><span class="glyphicon glyphicon-refresh"></span>обновить</a> если страница не перегрузилась автоматически.</p>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <p class="text-muted">Перейти на <a href="/"><span class="glyphicon glyphicon-home"></span>главную</a> страницу или воспользоваться <a href="/search/"><span class="glyphicon glyphicon-search"></span>поиском</a>.</p>
+            </div>
+        </footer>
+        <script>
+            var countdown = $('.lead span'),timer;
+            function startCountdown() {
+                var startFrom = $('.lead span').text();
+                timer = setInterval(function() {
+                    countdown.text(--startFrom);
+                    if (startFrom <= 0) {
+                        clearInterval(timer);
+                        window.location.replace('/');
+                    }
+                }, 1000);
+            }
+            $(document).ready(function() {
+                startCountdown();
+            });
+        </script>
+    </body>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.0</version>
+    <name>UniSender</name>
+    <faqlink>http://faq.phpshop.ru/page/unisender.html</faqlink>
+    <description>Модуль емейл рассылки и автоматизации UniSender.ru</description>
+    <category>soc</category>
+     <adminmenu>
+        <title>UniSender</title>
+        <capability>true</capability>
+    </adminmenu>
+</module>

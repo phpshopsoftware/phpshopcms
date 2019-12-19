@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.1</version>
+    <name>NextPay</name>
+    <description>Прием оплат через NextPay в соответствии с 54-ФЗ.</description>
+    <category>payment</category>
+    <faqlink>http://faq.phpshop.ru/page/nextpay.html</faqlink>
+    <status>update</status>
+    <adminmenu>
+        <title>NextPay</title>
+        <capability>true</capability>
+        <podmenu>
+            <podmenu_name>Настройка</podmenu_name>
+        </podmenu>
+    </adminmenu>
+</module>

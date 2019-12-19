@@ -1,0 +1,79 @@
+
+## Apache ##
+
+# Поддержка PHP 5.3 и выше
+#php_value allow_call_time_pass_reference on
+
+# Обход ошибки двойного добавление слешей в ORM
+#php_flag magic_quotes_gpc off
+
+# Отладочные сообщения PHP
+#php_value error_reporting 7
+
+# Выключение глобальных переменных PHP
+#php_flag register_globals off
+
+
+
+## PHPShop Core ##
+
+# Кодировка windows 1251
+AddDefaultCharset windows-1251
+
+# Скачивание CSV браузерами
+AddType text/csv csv
+
+DirectoryIndex index.php
+RewriteEngine On
+
+# Редирект на www
+# default - off
+#RewriteCond %{HTTP_HOST} ^name\.ru
+#RewriteRule ^(.*)$ http://www.name.ru/$1 [R=301,L]
+
+
+#Options FollowSymLinks
+#Options SymLinksIfOwnerMatch
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} (((.*)\.html$)|((.*)/))$
+RewriteCond %{REQUEST_URI} !((.*)\.(.*)/)$
+RewriteRule ^(.*)$ index.php
+
+# Страница 404 ошибки
+ErrorDocument 404 /404.html
+
+# Проверка обязательного / в конце
+RewriteCond %{REQUEST_URI} (map|search|compare|order|done|clients|users|gbook|links|price|news|spec|newtip)$
+RewriteRule ^(.*)$ /$1/ [L,R=302]
+
+
+## PHPShop Security ##
+
+# Запрет навигации по папкам через браузер
+# default - off
+#Options -Indexes 
+
+# Запрет вызовы через браузер сторонних опасных файлов шаблона
+# default - off
+#RewriteCond %{REQUEST_URI} ^(/phpshop/templates/(.*))
+#RewriteCond %{REQUEST_URI} !((.*)\.(gif|jpg|swf|png|jpeg|js|css|GIF|JPG|PNG|JPEG|eot|svg|ttf|woff))$
+#RewriteRule .* - [F]
+
+# Запрет вызовы через браузер сторонних опасных загружаемых файлов
+# Накладывает ограничение для загрузки файлов с другими расширениями
+# default - off
+RewriteCond %{REQUEST_URI} ^(/UserFiles/(.*))
+RewriteCond %{REQUEST_URI} !((.*)\.(gif|jpg|swf|png|jpeg|js|css|GIF|JPG|PNG|JPEG|rar|zip|xml|pdf))$
+RewriteRule .* - [F]
+
+# Запрет выполнения php в загружаемых папках
+# default - off
+RewriteCond %{REQUEST_URI} ^((/UserFiles/(.*).(php\d?|phtml))|(/phpshop/templates/(.*).(php\d?|phtml))|(/phpshop/admpanel/csv/(.*).(php\d?|phtml)))$
+RewriteRule .* - [F]
+
+# Запрет доступа к файлам лицензии, шаблонов, конфигурации
+<files ~ "\.(lic|ini|tpl|core\.php|inc\.php|hook\.php|class\.php|sql)$"> 
+Order Deny,Allow
+Deny From All
+</files>

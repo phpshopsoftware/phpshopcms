@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.7</version>
+    <name>Comment and Rating</name>
+    <description>Модуль комментариев и рейтингов.</description>
+    <category>soc,form</category>
+    <adminmenu>
+        <title>Comment and Rating</title>
+        <capability>true</capability>
+        <podmenu>
+            <podmenu_name>Комментарии</podmenu_name>
+             <podmenu_action>dir.comment</podmenu_action>
+        </podmenu>
+    </adminmenu>
+</module>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.2</version>
+    <name>Adm Log</name>
+    <faqlink>http://faq.phpshop.ru/page/errorlog.html</faqlink>
+    <description>Модуль записи действий администратора.</description>
+    <category>develop</category>
+    <status></status>
+    <adminmenu>
+        <title>Adm Log</title>
+        <capability>true</capability>
+        <podmenu>
+            <podmenu_name>Журнал событий</podmenu_name>
+            <podmenu_action>dir.admlog</podmenu_action>
+        </podmenu>
+    </adminmenu>
+</module>

@@ -1,0 +1,2332 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<enterprise>
+    <template>
+        <name>index</name>
+        <path>main/index.tpl</path>
+        <description>Главная страница</description>
+        <var>
+            <name>button</name>
+            <description>Рейтинги и счетчики</description>
+            <moving>true</moving>
+        </var>
+        <var>
+            <name>imageSlider</name>
+            <description>Слайдер</description>
+            <moving>true</moving>
+        </var>
+        <var>
+            <name>wishlist</name>
+            <description>Отложенные товары</description>
+            <moving>true</moving>
+        </var>
+        <var>
+            <name>leftMenu</name>
+            <path>main/left_menu.tpl</path>
+            <description>Левый текстовый блок</description>
+        </var>
+        <var>
+            <name>banersDisp</name>
+            <path>banner/baner_list_forma.tpl</path>
+            <description>Баннер</description>
+        </var>
+        <var>
+            <name>leftCatalTable</name>
+            <description>Список каталогов</description>
+            <moving>true</moving>
+        </var>
+        <var>
+            <name>nowBuy</name>
+            <description>Сейчас покупают</description>
+            <moving>true</moving>
+        </var>
+        <var>
+            <name>AdminMail</name>
+            <description>E-mail администратора</description>
+            <moving>true</moving>
+        </var>
+        <var>
+            <name>pageTitl</name>
+            <description>Заголовок страницы</description>
+	
+        </var>
+        <var>
+            <name>pageDesc</name>
+            <description>Описание страницы</description>
+	
+        </var>
+        <var>
+            <name>pageKeyw</name>
+            <description>Ключевые слова страницы</description>
+        </var>
+        <var>
+            <name>ShopDir</name>
+            <description>Директория размещения</description>
+        </var>
+        <var>
+            <name>topMenu</name>
+            <path>main/top_menu.tpl</path>
+            <description>Горизонтальное меню</description>
+        </var>
+        <var>
+            <name>name</name>
+            <description>Имя сайта</description>
+            <moving>true</moving>
+        </var>
+        <var>
+            <name>serverName</name>
+            <description>Адрес сайта</description>
+            <moving>true</moving>
+        </var>
+        <var>
+            <name>descrip</name>
+            <description>Описание сайта</description>
+        </var>
+        <var>
+            <name>leftCatal</name>
+            <description>Каталог товаров</description>
+            <moving>true</moving>
+        </var>
+        <var>
+            <name>pageCatal</name>
+            <description>Каталог страниц</description>
+            <moving>true</moving>
+        </var>
+        <var>
+            <name>oprosDisp</name>
+            <path>opros/opros_list.tpl</path>
+            <description>Форма опроса</description>
+        </var>
+        <var>
+            <name>leftMenu</name>
+            <path>main/left_menu.tpl</path>
+            <description>Левый текстовый блок</description>
+        </var>
+        <var>
+            <name>cloud</name>
+            <description>Облако тегов</description>
+            <moving>true</moving>
+        </var>
+        <var>
+            <name>num</name>
+            <description>Количество товаров в корзине</description>
+        </var>
+        <var>
+            <name>sum</name>
+            <description>Сумма товаров в корзине</description>
+        </var>
+        <var>
+            <name>productValutaName</name>
+            <description>Валюта в корзине</description>
+        </var>
+        <var>
+            <name>numcompare</name>
+            <description>Количество товаров в сравнении</description>
+        </var>
+        <var>
+            <name>valutaDisp</name>
+            <description>Форма смены валюты</description>
+            <moving>true</moving>
+        </var>
+        <var>
+            <name>skinSelect</name>
+            <description>Форма смены дизайна</description>
+            <moving>true</moving>
+        </var>
+        <var>
+            <name>usersDisp</name>
+            <path>users/users_forma.tpl</path>
+            <description>Форма авторизации пользователей</description>
+        </var>
+        <var>
+            <name>rightMenu</name>
+            <path>main/right_menu.tpl</path>
+            <description>Правый текстовый блок</description>
+        </var>
+        <var>
+            <name>specMainTitle</name>
+            <description>Заголовок спецпредложений</description>
+            <moving>true</moving>
+        </var>
+        <var>
+            <name>specMainIcon</name>
+            <description>Новинки в вертикальную колонку</description>
+            <moving>true</moving>
+        </var>
+        <var>
+            <name>mainContentTitle</name>
+            <description>Заголовок привественного сообщения</description>
+            <moving>true</moving>
+        </var>
+        <var>
+            <name>mainContent</name>
+            <description>Привественного сообщения</description>
+            <moving>true</moving>
+        </var>
+        <var>
+            <name>specMain</name>
+            <description>Спецпредложения в центр</description>
+            <moving>true</moving>
+        </var>
+        <var>
+            <name>miniNews</name>
+            <path>news/news_main_mini.tpl</path>
+            <description>Последние новости</description>
+        </var>
+    </template>
+    <template>
+        <name>shop</name>
+        <path>main/shop.tpl</path>
+        <description>Остальные страницы</description>
+        <var>
+            <name>button</name>
+            <description>Рейтинги и счетчики</description>
+            <moving>true</moving>
+        </var>
+        <var>
+            <name>wishlist</name>
+            <description>Отложенные товары</description>
+            <moving>true</moving>
+        </var>
+        <var>
+            <name>leftMenu</name>
+            <path>main/left_menu.tpl</path>
+            <description>Левый текстовый блок</description>
+        </var>
+        <var>
+            <name>banersDisp</name>
+            <path>banner/baner_list_forma.tpl</path>
+            <description>Баннер</description>
+        </var>
+        <var>
+            <name>AdminMail</name>
+            <description>E-mail администратора</description>
+            <moving>true</moving>
+        </var>
+        <var>
+            <name>pageTitl</name>
+            <description>Заголовок страницы</description>
+
+        </var>
+        <var>
+            <name>pageDesc</name>
+            <description>Описание страницы</description>
+        </var>
+        <var>
+            <name>pageKeyw</name>
+            <description>Ключевые слова страницы</description>
+        </var>
+        <var>
+            <name>ShopDir</name>
+            <description>Директория размещения</description>
+        </var>
+        <var>
+            <name>topMenu</name>
+            <path>main/top_menu.tpl</path>
+            <description>Горизонтальное меню</description>
+        </var>
+        <var>
+            <name>name</name>
+            <description>Имя сайта</description>
+            <moving>true</moving>
+        </var>
+        <var>
+            <name>serverName</name>
+            <description>Адрес сайта</description>
+            <moving>true</moving>
+        </var>
+        <var>
+            <name>descrip</name>
+            <description>Описание сайта</description>
+        </var>
+        <var>
+            <name>leftCatal</name>
+            <description>Каталог товаров</description>
+            <moving>true</moving>
+        </var>
+        <var>
+            <name>pageCatal</name>
+            <description>Каталог страниц</description>
+            <moving>true</moving>
+        </var>
+        <var>
+            <name>oprosDisp</name>
+            <path>opros/opros_list.tpl</path>
+            <description>Форма опроса</description>
+        </var>
+        <var>
+            <name>leftMenu</name>
+            <path>main/left_menu.tpl</path>
+            <description>Левый текстовый блок</description>
+        </var>
+        <var>
+            <name>cloud</name>
+            <description>Облако тегов</description>
+            <moving>true</moving>
+        </var>
+        <var>
+            <name>num</name>
+            <description>Количество товаров в корзине</description>
+        </var>
+        <var>
+            <name>sum</name>
+            <description>Сумма товаров в корзине</description>
+        </var>
+        <var>
+            <name>productValutaName</name>
+            <description>Валюта в корзине</description>
+        </var>
+        <var>
+            <name>numcompare</name>
+            <description>Количество товаров в сравнении</description>
+        </var>
+        <var>
+            <name>valutaDisp</name>
+            <description>Форма смены валюты</description>
+            <moving>true</moving>
+        </var>
+        <var>
+            <name>skinSelect</name>
+            <description>Форма смены дизайна</description>
+            <moving>true</moving>
+        </var>
+        <var>
+            <name>usersDisp</name>
+            <path>users/users_forma.tpl</path>
+            <description>Форма авторизации пользователей</description>
+        </var>
+        <var>
+            <name>rightMenu</name>
+            <path>main/right_menu.tpl</path>
+            <description>Правый текстовый блок</description>
+        </var>
+        <var>
+            <name>specMainIcon</name>
+            <description>Новинки в вертикальную колонку</description>
+            <moving>true</moving>
+        </var>
+        <var>
+            <name>DispShop</name>
+            <description>Основной блок вывода товаров</description>
+        </var>
+    </template>
+    <template>
+        <name>rightMenu</name>
+        <path>main/right_menu.tpl</path>
+        <description>Правый текстовый блок</description>
+        <var>
+            <name>leftMenuName</name>
+            <description>Наименование блока</description>
+        </var>
+        <var>
+            <name>leftMenuConten</name>
+            <description>Содержание блока</description>
+        </var>
+    </template>
+    <template>
+        <name>leftMenu</name>
+        <path>main/left_menu.tpl</path>
+        <description>Левый текстовый блок</description>
+        <var>
+            <name>leftMenuName</name>
+            <description>Наименование блока</description>
+        </var>
+        <var>
+            <name>leftMenuConten</name>
+            <description>Содержание блока</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Форма выбора валюты</name>
+        <path>main/valuta_forma.tpl</path>
+        <description>Форма выбора валюты</description>
+        <var>
+            <name>leftMenuConten</name>
+            <description>Список валют</description>
+        </var>
+    </template>
+
+
+	  
+    <template>
+        <name>Форма результата оформления заказа</name>
+        <path>order/order_forma_mesage_main.tpl</path>
+        <description>Форма результата оформления заказа</description>
+        <var>
+            <name>orderMesage</name>
+            <description>Место вывода сообщения</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Форма оформления результата заказа</name>
+        <path>order/order_forma_mesage.tpl</path>
+        <description>Форма оформления результата заказа</description>
+        <var>
+            <name>mesageText</name>
+            <description>Текст сообщения</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Страница заказа</name>
+        <path>order/main_order_list.tpl</path>
+        <description>Страница заказа</description>
+        <var>
+            <name>orderContentCart</name>
+            <description>Место вывода содержания корзины</description>
+        </var>
+        <var>
+            <name>orderContent</name>
+            <description>Место вывода личных данных</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Форма личных данных</name>
+        <path>order/main_order_forma.tpl</path>
+        <description>Форма личных данных</description>
+        <var>
+            <name>ComStartReg</name>
+            <description>Тег закрытия сообщения о регистрации (открытие)</description>
+        </var>
+        <var>
+            <name>ComEndReg</name>
+            <description>Тег закрытия сообщения о регистрации (закрытие)</description>
+        </var>
+        <var>
+            <name>orderDelivery</name>
+            <description>Место вывода выбора достовки</description>
+        </var>
+        <var>
+            <name>UserMail</name>
+            <description>E-mail пользователя</description>
+        </var>
+        <var>
+            <name>UserName</name>
+            <description>ФИО пользователя</description>
+        </var>
+        <var>
+            <name>UserComp</name>
+            <description>Компания пользователя</description>
+        </var>
+        <var>
+            <name>UserInn</name>
+            <description>ИНН пользователя</description>
+        </var>
+        <var>
+            <name>UserKpp</name>
+            <description>КПП пользователя</description>
+        </var>
+        <var>
+            <name>UserTelCode</name>
+            <description>Код города</description>
+        </var>
+        <var>
+            <name>UserTel</name>
+            <description>Телефон пользователя</description>
+        </var>
+        <var>
+            <name>UserAdres</name>
+            <description>Адрес пользователя</description>
+        </var>
+        <var>
+            <name>orderOplata</name>
+            <description>Место вывода типов оплаты</description>
+        </var>
+        <var>
+            <name>deliveryId</name>
+            <description>ID доставки</description>
+        </var>
+    </template>
+
+    <template>
+        <name>usersDisp</name>
+        <path>users/users_forma.tpl</path>
+        <description>Форма авторизации пользователей</description>
+        <var>
+            <name>usersError</name>
+            <description>Сообщение об ошибке атворизации</description>
+        </var>
+    </template>
+    <template>
+        <name>oprosDisp</name>
+        <path>opros/opros_list.tpl</path>
+        <description>Форма опроса</description>
+        <var>
+            <name>oprosName</name>
+            <description>Наименование опроса</description>
+        </var>
+        <var>
+            <name>oprosContent</name>
+            <description>Срдержание опроса</description>
+        </var>
+    </template>
+    <template>
+        <name>topMenu</name>
+        <path>main/top_menu.tpl</path>
+        <description>Горизонтальное меню</description>
+        <var>
+            <name>topMenuLink</name>
+            <description>Ссылка на элемент в меню</description>
+        </var>
+        <var>
+            <name>topMenuName</name>
+            <description>Наименование элемента в меню</description>
+        </var>
+    </template>
+    <template>
+        <name>banersDisp</name>
+        <path>banner/baner_list_forma.tpl</path>
+        <description>Баннер</description>
+        <var>
+            <name>banerContent</name>
+            <description>Содержание баннера</description>
+        </var>
+    </template>
+    <template>
+        <name>Форма вывода отзыва</name>
+        <path>gbook/main_gbook_forma.tpl</path>
+        <description>Форма вывода отзыва</description>
+        <var>
+            <name>gbookData</name>
+            <description>Дата отзыва</description>
+        </var>
+        <var>
+            <name>gbookTema</name>
+            <description>Заголовок отзыва</description>
+        </var>
+        <var>
+            <name>gbookMail</name>
+            <description>Имя отправителя</description>
+        </var>
+        <var>
+            <name>gbookOtsiv</name>
+            <description>Отзыв администрации</description>
+        </var>
+        <var>
+            <name>gbookOtvet</name>
+            <description>Ответ администрации отзыва</description>
+        </var>
+    </template>
+    <template>
+        <name>catalogPodcatalog</name>
+        <path>catalog/podcatalog_forma.tpl</path>
+        <description>Форма подкаталога товаров</description>
+        <var>
+            <name>catalogUid</name>
+            <description>ID каталога</description>
+        </var>
+        <var>
+            <name>catalogTitle</name>
+            <description>Заголовок подкаталога</description>
+        </var>
+        <var>
+            <name>catalogName</name>
+            <description>Наименование подкаталога</description>
+        </var>
+    </template>
+    
+    <template>
+        <name>Форма каталога фотогалереи 1</name>
+        <path>catalog/catalog_photo_1.tpl</path>
+        <description>Форма каталога фотогалереи</description>
+        <var>
+            <name>menu</name>
+            <description>Содержимое меню каталогов</description>
+        </var>
+    </template>
+    
+    <template>
+        <name>Форма ячейки фотогалереи 1</name>
+        <path>catalog/catalog_photo_1_point.tpl</path>
+        <description>Форма ячейки фотогалереи</description>
+        <var>
+            <name>catalogLink</name>
+            <description>Ссылка на фотогалерею</description>
+        </var>
+        <var>
+            <name>catalogName</name>
+            <description>Наименование каталога фотогалереи</description>
+        </var>
+    </template>
+    <template>
+        <name>Форма каталога 1</name>
+        <path>catalog/catalog_forma.tpl</path>
+        <description>Форма каталога</description>
+        <var>
+            <name>catalogId</name>
+            <description>ID каталога</description>
+        </var>
+        <var>
+            <name>catalogTemplates</name>
+            <description>Шаблон каталога</description>
+        </var>
+        <var>
+            <name>catalogPodcatalog</name>
+            <description>Вывод подкаталогов страниц</description>
+        </var>
+        <var>
+            <name>catalogName</name>
+            <description>Наименование каталога</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Форма каталога 2</name>
+        <path>catalog/catalog_forma_2.tpl</path>
+        <description>Форма каталога 2</description>
+        <var>
+            <name>catalogId</name>
+            <description>ID каталога</description>
+        </var>
+        <var>
+            <name>catalogTemplates</name>
+            <description>Шаблон каталога</description>
+        </var>
+        <var>
+            <name>catalogPodcatalog</name>
+            <description>Вывод подкаталогов страниц</description>
+        </var>
+        <var>
+            <name>catalogName</name>
+            <description>Наименование каталога</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Форма каталога 3</name>
+        <path>catalog/catalog_forma_3.tpl</path>
+        <description>Форма каталога 3</description>
+        <var>
+            <name>catalogId</name>
+            <description>ID каталога</description>
+        </var>
+        <var>
+            <name>catalogTitle</name>
+            <description>Заголовок каталога</description>
+        </var>
+        <var>
+            <name>catalogName</name>
+            <description>Наименование каталога</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Форма подкаталога статей</name>
+        <path>catalog/podcatalog_page_forma.tpl</path>
+        <description>Форма подкаталога статей</description>
+        <var>
+            <name>catalogUid</name>
+            <description>ID каталога</description>
+        </var>
+        <var>
+            <name>catalogName</name>
+            <description>Наименование подкаталога</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Форма описания подкаталога товаров</name>
+        <path>catalog/podcatalog_info_forma.tpl</path>
+        <description>Форма описания подкаталога товаров</description>
+        <var>
+            <name>catalogId</name>
+            <description>ID каталога</description>
+        </var>
+        <var>
+            <name>podcatalogName</name>
+            <description>Наименование подкаталога</description>
+        </var>
+        <var>
+            <name>podcatalogContent</name>
+            <description>Описание подкаталога товаров</description>
+        </var>
+        <var>
+            <name>thisCatSort</name>
+            <description>Место вывода сортировок товара</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Форма каталога продукции на главной</name>
+        <path>catalog/catalog_table_forma.tpl</path>
+        <description>Форма каталога продукции на главной</description>
+        <var>
+            <name>catalogId</name>
+            <description>ID каталога</description>
+        </var>
+        <var>
+            <name>catalogName</name>
+            <description>Наименование каталога товаров</description>
+        </var>
+        <var>
+            <name>pcatalogContent</name>
+            <description>Описание каталога товаров</description>
+        </var>
+        <var>
+            <name>catalogPodcatalog</name>
+            <description>Место вывода дерева подкаталогов</description>
+        </var>
+    </template>
+    
+    <template>
+        <name>Форма списка каталогов с иконками</name>
+        <path>catalog/cid_category.tpl</path>
+        <description>Форма списка каталогов товаров с иконками</description>
+        <var>
+            <name>podcatalogId</name>
+            <description>ID каталога</description>
+        </var>
+        <var>
+            <name>podcatalogName</name>
+            <description>Наименование каталога товаров</description>
+        </var>
+        <var>
+            <name>podcatalogIcon</name>
+            <description>Иконка каталога</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Форма сортировки подкаталога продукции</name>
+        <path>catalog/catalog_tree_forma.tpl</path>
+        <description>Форма сортировки подкаталога продукции</description>
+        <var>
+            <name>breadCrumbs</name>
+            <description>Хлебные крошки</description>
+        </var>
+        <var>
+            <name>СatalogId</name>
+            <description>ID каталога</description>
+        </var>
+        <var>
+            <name>SortCategoryId</name>
+            <description>ID сортировки</description>
+        </var>
+        <var>
+            <name>SortId</name>
+            <description>ID значения в сортировке</description>
+        </var>
+        <var>
+            <name>SortCategoryName</name>
+            <description>Наименование сортировки</description>
+        </var>
+        <var>
+            <name>SortName</name>
+            <description>Наименование значения сортировки</description>
+        </var>
+    </template>
+
+
+    <template>
+        <name>Форма описания каталога статей</name>
+        <path>catalog/catalog_page_info_forma.tpl</path>
+        <description>Форма описания каталога статей</description>
+        <var>
+            <name>breadCrumbs</name>
+            <description>Хлебные крошки</description>
+        </var>
+        <var>
+            <name>parentName</name>
+            <description>Наименование родителя</description>
+        </var>
+        <var>
+            <name>catalogName</name>
+            <description>Наименование подкаталога</description>
+        </var>
+        <var>
+            <name>catalogList</name>
+            <description>Место вывода списка каталогов</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Форма 2 каталога статей</name>
+        <path>catalog/catalog_page_forma_2.tpl</path>
+        <description>Форма 2 каталога статей</description>
+        <var>
+            <name>breadCrumbs</name>
+            <description>Хлебные крошки</description>
+        </var>
+        <var>
+            <name>catalogName</name>
+            <description>Наименование каталога</description>
+        </var>
+        <var>
+            <name>catalogId</name>
+            <description>ID каталога</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Форма каталога статей</name>
+        <path>catalog/catalog_page_forma.tpl</path>
+        <description>Форма каталога статей</description>
+        <var>
+            <name>breadCrumbs</name>
+            <description>Хлебные крошки</description>
+        </var>
+        <var>
+            <name>catalogName</name>
+            <description>Наименование каталога</description>
+        </var>
+        <var>
+            <name>catalogId</name>
+            <description>ID каталога</description>
+        </var>
+        <var>
+            <name>catalogTemplates</name>
+            <description>Наименование текущего шаблона дизайна</description>
+        </var>
+        <var>
+            <name>catalogPodcatalog</name>
+            <description>Место вывода подкаталогов</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Форма описания каталога товаров</name>
+        <path>catalog/catalog_info_forma.tpl</path>
+        <description>Форма описания каталога товаров</description>
+        <var>
+            <name>breadCrumbs</name>
+            <description>Хлебные крошки</description>
+        </var>
+        <var>
+            <name>catalogName</name>
+            <description>Наименование каталога</description>
+        </var>
+        <var>
+            <name>parentName</name>
+            <description>Наименование родителя</description>
+        </var>
+        <var>
+            <name>catalogContent</name>
+            <description>Описание катлога</description>
+        </var>
+        <var>
+            <name>catalogList</name>
+            <description>Место вывода подкаталогов</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Страница контроля заказа</name>
+        <path>clients/clients_page_list.tpl</path>
+        <description>Страница контроля заказа</description>
+        <var>
+            <name>formaContent</name>
+            <description>Место вывода данных по заказу</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Форма авторизации контроля заказа</name>
+        <path>clients/clients_forma.tpl</path>
+        <description>Форма авторизации контроля заказа</description>
+    </template>
+
+
+    <template>
+        <name>Форма комментария товара</name>
+        <path>comment/main_comment_forma.tpl</path>
+        <description>Форма комментария товар</description>
+        <var>
+            <name>commentName</name>
+            <description>Автор</description>
+        </var>
+        <var>
+            <name>commentData</name>
+            <description>Дата</description>
+        </var>
+        <var>
+            <name>commentEdit</name>
+            <description>Редактирование комментария</description>
+        </var>
+        <var>
+            <name>commentContent</name>
+            <description>Содержание</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Форма вывода комментариев</name>
+        <path>comment/comment_page_list.tpl</path>
+        <description>Форма вывода комментариевр</description>
+        <var>
+            <name>productPageNav</name>
+            <description>Навигация по комментариям</description>
+        </var>
+        <var>
+            <name>productPageDis</name>
+            <description>Место вывода комментариев</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Форма ошибки 404</name>
+        <path>error/error_page_forma.tpl</path>
+        <description>Форма ошибки 404</description>
+    </template>
+
+    <template>
+        <name>Форма ошибки электронного платежа</name>
+        <path>error/error_payment.tpl</path>
+        <description>Форма ошибки электронного платежа</description>
+    </template>
+
+    <template>
+        <name>Форма сообщения с сайта</name>
+        <path>forma/page_forma_list.tpl</path>
+        <description>Форма сообщения с сайта</description>
+    </template>
+
+    <template>
+        <name>Страница отзывов</name>
+        <path>gbook/gbook_page_list.tpl</path>
+        <description>Страница отзывов</description>
+        <var>
+            <name>Error</name>
+            <description>Сообщение о выполненой операции</description>
+        </var>
+        <var>
+            <name>productPageNav</name>
+            <description>Навигация по отзывам</description>
+        </var>
+        <var>
+            <name>productPageDis</name>
+            <description>Место вывода отзывов</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Форма нового отзыва</name>
+        <path>gbook/gbook_forma_otsiv.tpl</path>
+        <description>Форма нового отзыва</description>
+        <var>
+            <name>Error</name>
+            <description>Сообщение о выполненой операции</description>
+        </var>
+    </template>
+
+
+    <template>
+        <name>Форма полезной ссылки</name>
+        <path>links/main_links_forma.tpl</path>
+        <description>Форма полезной ссылки</description>
+        <var>
+            <name>linksLink</name>
+            <description>Ссылка на сайт</description>
+        </var>
+        <var>
+            <name>linksImage</name>
+            <description>Кнопка сайта</description>
+        </var>
+        <var>
+            <name>linksName</name>
+            <description>Имя сайта</description>
+        </var>
+        <var>
+            <name>linksOpis</name>
+            <description>Описание сайта</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Страница ссылок</name>
+        <path>links/links_page_list.tpl</path>
+        <description>Страница ссылок</description>
+        <var>
+            <name>productPageNav</name>
+            <description>Навигация по ссылкам</description>
+        </var>
+        <var>
+            <name>productPageDis</name>
+            <description>Место вывода ссылок</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Страница карты сайта</name>
+        <path>map/map_page_list.tpl</path>
+        <description>Страница карты сайта</description>
+        <var>
+            <name>catalFound</name>
+            <description>Выводит слово - Каталогов</description>
+        </var>
+        <var>
+            <name>producFound</name>
+            <description>Выводит слово - Позиций</description>
+        </var>
+        <var>
+            <name>catalNum</name>
+            <description>Количество каталогов в базе</description>
+        </var>
+        <var>
+            <name>productNum</name>
+            <description>Количество позиций в базе</description>
+        </var>
+        <var>
+            <name>productPageDis</name>
+            <description>Место вывода ссылок</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Страница новостей</name>
+        <path>news/news_page_list.tpl</path>
+        <description>Страница новостей</description>
+        <var>
+            <name>productPageNav</name>
+            <description>Навигация по новостям</description>
+        </var>
+        <var>
+            <name>productPageDis</name>
+            <description>Место вывода новостей</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Страница подробного описания новости</name>
+        <path>news/news_page_full.tpl</path>
+        <description>Страница подробного описания новости</description>
+        <var>
+            <name>newsZag</name>
+            <description>Заголовок новости</description>
+        </var>
+        <var>
+            <name>newsData</name>
+            <description>Дата создания новости</description>
+        </var>
+        <var>
+            <name>productPageDis</name>
+            <description>Место вывода подробного описания новости</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Форма мини-новостей</name>
+        <path>news/news_main_mini.tpl</path>
+        <description>Форма мини-новостей</description>
+        <var>
+            <name>newsZag</name>
+            <description>Заголовок новости</description>
+        </var>
+        <var>
+            <name>newsData</name>
+            <description>Дата создания новости</description>
+        </var>
+        <var>
+            <name>newsKratko</name>
+            <description>Краткое содержание новости</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Форма сообщения подписки на новости</name>
+        <path>news/news_forma_mesage.tpl</path>
+        <description>Форма сообщения подписки на новости</description>
+        <var>
+            <name>mesageText</name>
+            <description>Сообщение о результутате подписки</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Форма подробного описания новостей</name>
+        <path>news/main_news_forma_full.tpl</path>
+        <description>Форма подробного описания новостей</description>
+        <var>
+            <name>newsZag</name>
+            <description>Заголовок новости</description>
+        </var>
+        <var>
+            <name>newsData</name>
+            <description>Дата создания новости</description>
+        </var>
+        <var>
+            <name>newsPodrob</name>
+            <description>Подробное содержание новости</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Форма краткого описания новостей</name>
+        <path>news/main_news_forma.tpl</path>
+        <description>Форма краткого описания новостей</description>
+        <var>
+            <name>newsZag</name>
+            <description>Заголовок новости</description>
+        </var>
+        <var>
+            <name>newsData</name>
+            <description>Дата создания новости</description>
+        </var>
+        <var>
+            <name>newsKratko</name>
+            <description>Краткое содержание новости</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Страница результата опроса</name>
+        <path>opros/opros_page_list.tpl</path>
+        <description>Страница результата опроса</description>
+        <var>
+            <name>oprosName</name>
+            <description>Наименование опроса</description>
+        </var>
+        <var>
+            <name>oprosContent</name>
+            <description>Содержание опроса</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Страница результата опроса</name>
+        <path>opros/opros_page_forma.tpl</path>
+        <description>Страница результата опроса</description>
+        <var>
+            <name>valueName</name>
+            <description>Результат</description>
+        </var>
+        <var>
+            <name>valueProc</name>
+            <description>%</description>
+        </var>
+        <var>
+            <name>valueSum</name>
+            <description>Голосов</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Форма содержания опроса</name>
+        <path>opros/opros_forma.tpl</path>
+        <description>Форма содержания опроса</description>
+        <var>
+            <name>valueId</name>
+            <description>ID вариата ответа</description>
+        </var>
+        <var>
+            <name>valueName</name>
+            <description>Наименование вариата ответа</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Форма страницы</name>
+        <path>page/page_page_list.tpl</path>
+        <description>Форма страницы</description>
+        <var>
+            <name>breadCrumbs</name>
+            <description>Хлебные крошки</description>
+        </var>
+        <var>
+            <name>pageTitle</name>
+            <description>Заголовок страницы</description>
+        </var>
+        <var>
+            <name>catalogCategory</name>
+            <description>Заголовок страницы</description>
+        </var>
+        <var>
+            <name>catalogId</name>
+            <description>ID каталога</description>
+        </var>
+        <var>
+            <name>pageNav</name>
+            <description>Навигация</description>
+        </var>
+        <var>
+            <name>pageContent</name>
+            <description>Содержание страницы</description>
+        </var>
+        <var>
+            <name>odnotipDisp</name>
+            <description>Вывод однотипов</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Форма страницы каталога статей</name>
+        <path>page/page_catalog_list.tpl</path>
+        <description>Форма страницы каталога статей</description>
+        <var>
+            <name>breadCrumbs</name>
+            <description>Хлебные крошки</description>
+        </var>
+        <var>
+            <name>pageTitle</name>
+            <description>Заголовок страницы</description>
+        </var>
+        <var>
+            <name>catName</name>
+            <description>Наименование каталога статей</description>
+        </var>
+        <var>
+            <name>podcatalogName</name>
+            <description>Наименование подкаталога статей</description>
+        </var>
+        <var>
+            <name>pageContent</name>
+            <description>Содержание</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Страница прайс-листа</name>
+        <path>price/price_page_list.tpl</path>
+        <description>Страница прайс-листа</description>
+        <var>
+            <name>searchPageCategory</name>
+            <description>Место вывода списка каталогов товаров</description>
+        </var>
+        <var>
+            <name>PageCategory</name>
+            <description>ID выбранного каталога</description>
+        </var>
+        <var>
+            <name>productPageDis</name>
+            <description>Место вывода товаров</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Форма ячейки прайс-листа</name>
+        <path>price/price_forma.tpl</path>
+        <description>Форма ячейки прайс-листа</description>
+        <var>
+            <name>priceLink</name>
+            <description>Ссылка на описаие товара</description>
+        </var>
+        <var>
+            <name>price</name>
+            <description>Цена товара</description>
+        </var>
+        <var>
+            <name>priceGar</name>
+            <description>Гарантия</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Форма пожаловаться на цену товара</name>
+        <path>pricemail/main_forma.tpl</path>
+        <description>Форма пожаловаться на цену товара</description>
+        <var>
+            <name>productUid</name>
+            <description>ID товара</description>
+        </var>
+        <var>
+            <name>productName</name>
+            <description>Наименование товара</description>
+        </var>
+        <var>
+            <name>productPrice</name>
+            <description>Цена товара</description>
+        </var>
+        <var>
+            <name>productValutaName</name>
+            <description>Валюта товара</description>
+        </var>
+        <var>
+            <name>productPriceRub</name>
+            <description>Наличие товара</description>
+        </var>
+        <var>
+            <name>UserMail</name>
+            <description>E-mail пользователя</description>
+        </var>
+        <var>
+            <name>UserName</name>
+            <description>ФИО пользователя</description>
+        </var>
+        <var>
+            <name>UserComp</name>
+            <description>Компания пользователя</description>
+        </var>
+        <var>
+            <name>UserTel</name>
+            <description>Телефон пользователя</description>
+        </var>
+        <var>
+            <name>UserAdres</name>
+            <description>Дополнительная информация</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Печатная форма товара</name>
+        <path>print/print_page_forma.tpl</path>
+        <description>Печатная форма товара</description>
+        <var>
+            <name>pageTitl</name>
+            <description>Заголовок страницы</description>
+        </var>
+        <var>
+            <name>nameShop</name>
+            <description>Название сайта</description>
+        </var>
+        <var>
+            <name>descripShop</name>
+            <description>Описание сайта</description>
+        </var>
+        <var>
+            <name>serverShop</name>
+            <description>URL сайта</description>
+        </var>
+        <var>
+            <name>productId</name>
+            <description>ID товара</description>
+        </var>
+        <var>
+            <name>vendorDisp</name>
+            <description>Таблица характеристик</description>
+        </var>
+        <var>
+            <name>productDes</name>
+            <description>Описание товара</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Страница спецпредложений</name>
+        <path>product/product_page_spec_list.tpl</path>
+        <description>Страница спецпредложений</description>
+        <var>
+            <name>breadCrumbs</name>
+            <description>Хлебные крошки</description>
+        </var>
+        <var>
+            <name>catalogCategory</name>
+            <description>Заголовок страницы</description>
+        </var>
+        <var>
+            <name>productPageThis</name>
+            <description>Номер страницы</description>
+        </var>
+        <var>
+            <name>productRriceOT</name>
+            <description>Сумма сортировки по цене от</description>
+        </var>
+        <var>
+            <name>productRriceDO</name>
+            <description>Сумма сортировки по цене до</description>
+        </var>
+        <var>
+            <name>productPageNav</name>
+            <description>Навигация</description>
+        </var>
+        <var>
+            <name>vendorDisp</name>
+            <description>Таблица характеристик</description>
+        </var>
+        <var>
+            <name>productPageDis</name>
+            <description>Место вывода списка товара</description>
+        </var>
+    </template>
+
+
+    <template>
+        <name>Страница списка товаров</name>
+        <path>product/product_page_list.tpl</path>
+        <description>Страница списка товаров</description>
+        <var>
+            <name>breadCrumbs</name>
+            <description>Хлебные крошки</description>
+        </var>
+        <var>
+            <name>DispCatNav</name>
+            <description>Навигация по подкаталогам</description>
+        </var>
+        <var>
+            <name>catalogContent</name>
+            <description>Описание подкаталога</description>
+        </var>
+        <var>
+            <name>productId</name>
+            <description>ID подкаталога</description>
+        </var>
+        <var>
+            <name>productPageThis</name>
+            <description>Номер страницы</description>
+        </var>
+        <var>
+            <name>productRriceOT</name>
+            <description>Сумма сортировки по цене от</description>
+        </var>
+        <var>
+            <name>productRriceDO</name>
+            <description>Сумма сортировки по цене до</description>
+        </var>
+        <var>
+            <name>vendorDispTitle</name>
+            <description>Заголовок таблица сортировок</description>
+        </var>
+        <var>
+            <name>vendorDisp</name>
+            <description>Таблица сортировок на характеристикам</description>
+        </var>
+        <var>
+            <name>vendorSelectDisp</name>
+            <description>Кнопка управления сортировкой</description>
+        </var>
+        <var>
+            <name>productPageNav</name>
+            <description>Навигация</description>
+        </var>
+        <var>
+            <name>catalogCategory</name>
+            <description>Наименование подкаталога</description>
+        </var>
+        <var>
+            <name>productPageDis</name>
+            <description>Место вывода списка товара</description>
+        </var>
+    </template>
+
+
+    <template>
+        <name>Форма 2 страницы списка товаров</name>
+        <path>product/product_page_list_2.tpl</path>
+        <description>Форма 2 страницы списка товаров</description>
+        <var>
+            <name>productId</name>
+            <description>ID подкаталога</description>
+        </var>
+        <var>
+            <name>productPageThis</name>
+            <description>Номер страницы</description>
+        </var>
+        <var>
+            <name>productRriceOT</name>
+            <description>Сумма сортировки по цене от</description>
+        </var>
+        <var>
+            <name>productRriceDO</name>
+            <description>Сумма сортировки по цене до</description>
+        </var>
+        <var>
+            <name>vendorDispTitle</name>
+            <description>Заголовок таблица сортировок</description>
+        </var>
+        <var>
+            <name>vendorDisp</name>
+            <description>Таблица сортировок на характеристикам</description>
+        </var>
+        <var>
+            <name>vendorSelectDisp</name>
+            <description>Кнопка управления сортировкой</description>
+        </var>
+        <var>
+            <name>productPageNav</name>
+            <description>Навигация</description>
+        </var>
+        <var>
+            <name>catalogCategory</name>
+            <description>Наименование подкаталога</description>
+        </var>
+        <var>
+            <name>productPageDis</name>
+            <description>Место вывода списка товара</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Страница подробного описания товара</name>
+        <path>product/product_page_full.tpl</path>
+        <description>Страница подробного описания товара</description>
+        <var>
+            <name>breadCrumbs</name>
+            <description>Хлебные крошки</description>
+        </var>
+        <var>
+            <name>odnotipDisp</name>
+            <description>Сопутствующие товары</description>
+        </var>
+        <var>
+            <name>catalogCat</name>
+            <description>Наименование каталога</description>
+        </var>
+        <var>
+            <name>catalogCategory</name>
+            <description>Наименование подкаталога</description>
+        </var>
+        <var>
+            <name>catalogUId</name>
+            <description>ID подкаталога</description>
+        </var>
+        <var>
+            <name>productName</name>
+            <description>Наименование товара</description>
+        </var>
+        <var>
+            <name>productPageDis</name>
+            <description>Описание товара</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Форма статей по теме товара</name>
+        <path>product/product_pagetema_list.tpl</path>
+        <description>Форма статей по теме товара</description>
+        <var>
+            <name>temaTitle</name>
+            <description>Заголовок раздела</description>
+        </var>
+        <var>
+            <name>temaContent</name>
+            <description>Место вывода статей</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Форма содержания статей по теме товара</name>
+        <path>product/product_pagetema_forma.tpl</path>
+        <description>Форма содержания статей по теме товара</description>
+        <var>
+            <name>pageLink</name>
+            <description>Ссылка на статью</description>
+        </var>
+        <var>
+            <name>pageName</name>
+            <description>Наименование статьи</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Блок починенных товаров в однотипах</name>
+        <path>product/product_odnotip_product_parent.tpl</path>
+        <description>Блок починенных товаров в однотипах</description>
+        <var>
+            <name>productId</name>
+            <description>ID товара хозяина</description>
+        </var>
+        <var>
+            <name>pageName</name>
+            <description>Наименование статьи</description>
+        </var>
+        <var>
+            <name>productSale</name>
+            <description>В корзину</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Форма однотипных товаров</name>
+        <path>product/product_odnotip_product.tpl</path>
+        <description>Форма однотипных товаров</description>
+        <var>
+            <name>productUid</name>
+            <description>ID товара</description>
+        </var>
+        <var>
+            <name>productName</name>
+            <description>Наименование товара</description>
+        </var>
+        <var>
+            <name>productPrice</name>
+            <description>Цена товара</description>
+        </var>
+        <var>
+            <name>productImg</name>
+            <description>Изображение товара</description>
+        </var>
+        <var>
+            <name>productValutaName</name>
+            <description>Валюта товара</description>
+        </var>
+        <var>
+            <name>productSklad</name>
+            <description>Наличие на складе</description>
+        </var>
+        <var>
+            <name>productNotice</name>
+            <description>Уведомить</description>
+        </var>
+        <var>
+            <name>productSale</name>
+            <description>В корзину</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Блок подчиненных товаров в однотипах</name>
+        <path>product/product_odnotip_product_parent.tpl</path>
+        <description>Блок подчиненных товаров в однотипах</description>
+        <var>
+            <name>productId</name>
+            <description>ID товара хозяина</description>
+        </var>
+        <var>
+            <name>pageName</name>
+            <description>Наименование статьи</description>
+        </var>
+        <var>
+            <name>productSale</name>
+            <description>В корзину</description>
+        </var>
+    </template>
+
+
+    <template>
+        <name>Форма спецпредложений в виде иконок</name>
+        <path>product/main_spec_forma_icon.tpl</path>
+        <description>Форма спецпредложений в виде иконок</description>
+        <var>
+            <name>productUid</name>
+            <description>ID товара</description>
+        </var>
+        <var>
+            <name>productName</name>
+            <description>Наименование товара</description>
+        </var>
+        <var>
+            <name>productPrice</name>
+            <description>Цена товара</description>
+        </var>
+        <var>
+            <name>productImg</name>
+            <description>Изображение товара</description>
+        </var>
+        <var>
+            <name>productImgBigFoto</name>
+            <description>Большое изображение товара</description>
+        </var>
+        <var>
+            <name>productValutaName</name>
+            <description>Валюта товара</description>
+        </var>
+        <var>
+            <name>productInfo</name>
+            <description>Ссылка на подробное описание</description>
+        </var>
+        <var>
+            <name>productSale</name>
+            <description>В корзину</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Форма каталога подчиненных товаров в однотипах</name>
+        <path>product/product_odnotip_catalog_parent.tpl</path>
+        <description>Форма каталога подчиненных товаров в однотипах</description>
+        <var>
+            <name>catalogList</name>
+            <description>Список каталогов</description>
+        </var>
+    </template>
+
+	  
+    <template>
+        <name>Форма каталога товаров в однотипах</name>
+        <path>product/product_odnotip_catalog.tpl</path>
+        <description>Форма каталога товаров в однотипах</description>
+        <var>
+            <name>catalogName</name>
+            <description>Наименование каталога</description>
+        </var>
+        <var>
+            <name>podcatalogName</name>
+            <description>Наименование подкаталога</description>
+        </var>
+        <var>
+            <name>catalogList</name>
+            <description>Список каталогов</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Форма каталога товаров</name>
+        <path>product/product_catalog_forma.tpl</path>
+        <description>Форма каталога товаров</description>
+        <var>
+            <name>DispCatContent</name>
+            <description>Содержание каталога</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Форма спецпредложений</name>
+        <path>product/main_spec_forma.tpl</path>
+        <description>Форма спецпредложений</description>
+        <var>
+            <name>productUid</name>
+            <description>ID товара</description>
+        </var>
+        <var>
+            <name>productName</name>
+            <description>Наименование товара</description>
+        </var>
+        <var>
+            <name>productPrice</name>
+            <description>Цена товара</description>
+        </var>
+        <var>
+            <name>productImg</name>
+            <description>Изображение товара</description>
+        </var>
+        <var>
+            <name>productImgBigFoto</name>
+            <description>Большое изображение товара</description>
+        </var>
+        <var>
+            <name>productValutaName</name>
+            <description>Валюта товара</description>
+        </var>
+        <var>
+            <name>productInfo</name>
+            <description>Ссылка на подробное описание</description>
+        </var>
+        <var>
+            <name>productSale</name>
+            <description>В корзину</description>
+        </var>
+        <var>
+            <name>productSklad</name>
+            <description>Склад</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Список однотипных продуктов</name>
+        <path>product/main_product_odnotip_list.tpl</path>
+        <description>Список однотипных продуктов</description>
+        <var>
+            <name>productOdnotip</name>
+            <description>Заголовок</description>
+        </var>
+        <var>
+            <name>productOdnotipList</name>
+            <description>Место вывода однотипов</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Форма однотипных продуктов</name>
+        <path>product/main_product_odnotip_forma.tpl</path>
+        <description>Форма однотипных продуктов</description>
+        <var>
+            <name>productOdnotip</name>
+            <description>Заголовок</description>
+        </var>
+        <var>
+            <name>productOdnotipList</name>
+            <description>Место вывода однотипов</description>
+        </var>
+    </template>
+
+
+    <template>
+        <name>Форма подробного описания товара</name>
+        <path>product/main_product_forma_full.tpl</path>
+        <description>Форма подробного описания товара</description>
+        <var>
+            <name>productUid</name>
+            <description>ID товара</description>
+        </var>
+        <var>
+            <name>productName</name>
+            <description>Наименование товара</description>
+        </var>
+        <var>
+            <name>productPrice</name>
+            <description>Цена товара</description>
+        </var>
+        <var>
+            <name>productFotoList</name>
+            <description>Изображение товара</description>
+        </var>
+        <var>
+            <name>productValutaName</name>
+            <description>Валюта товара</description>
+        </var>
+        <var>
+            <name>optionsDisp</name>
+            <description>Список опций товара</description>
+        </var>
+        <var>
+            <name>productSale</name>
+            <description>В корзину</description>
+        </var>
+        <var>
+            <name>productSklad</name>
+            <description>Склад</description>
+        </var>
+        <var>
+            <name>productNotice</name>
+            <description>Уведомить</description>
+        </var>
+        <var>
+            <name>productBack</name>
+            <description>Назад</description>
+        </var>
+        <var>
+            <name>productParentList</name>
+            <description>Подчиненные товары</description>
+        </var>
+        <var>
+            <name>productDes</name>
+            <description>Описание товара</description>
+        </var>
+        <var>
+            <name>productFiles</name>
+            <description>Прикрепленные файлы товара</description>
+        </var>
+        <var>
+            <name>vendorDisp</name>
+            <description>Характеристики</description>
+        </var>
+        <var>
+            <name>ratingfull</name>
+            <description>Рейтинг</description>
+        </var>
+        <var>
+            <name>pagetemaDisp</name>
+            <description>Тематические статьи</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Форма вывода товара в 4 ячейки</name>
+        <path>product/main_product_forma_4.tpl</path>
+        <description>Форма вывода товара в 4 ячейки</description>
+        <var>
+            <name>productUid</name>
+            <description>ID товара</description>
+        </var>
+        <var>
+            <name>productName</name>
+            <description>Наименование товара</description>
+        </var>
+        <var>
+            <name>productPrice</name>
+            <description>Цена товара</description>
+        </var>
+        <var>
+            <name>productImg</name>
+            <description>Изображение товара</description>
+        </var>
+        <var>
+            <name>productImgBigFoto</name>
+            <description>Большое изображение товара</description>
+        </var>
+        <var>
+            <name>productValutaName</name>
+            <description>Валюта товара</description>
+        </var>
+        <var>
+            <name>productInfo</name>
+            <description>Ссылка на подробное описание</description>
+        </var>
+        <var>
+            <name>productSale</name>
+            <description>В корзину</description>
+        </var>
+        <var>
+            <name>productSklad</name>
+            <description>Склад</description>
+        </var>
+        <var>
+            <name>productNotice</name>
+            <description>Уведомить</description>
+        </var>
+        <var>
+            <name>optionsDisp</name>
+            <description>Опции товара</description>
+        </var>
+        <var>
+            <name>productDes</name>
+            <description>Описание</description>
+        </var>
+        <var>
+            <name>vendorDisp</name>
+            <description>Характеристики</description>
+        </var>
+        <var>
+            <name>productArt</name>
+            <description>Артикул товара</description>
+        </var>
+    </template>
+    <template>
+        <name>Форма вывода товара в 3 ячейки</name>
+        <path>product/main_product_forma_3.tpl</path>
+        <description>Форма вывода товара в 3 ячейки</description>
+        <var>
+            <name>productUid</name>
+            <description>ID товара</description>
+        </var>
+        <var>
+            <name>productName</name>
+            <description>Наименование товара</description>
+        </var>
+        <var>
+            <name>productPrice</name>
+            <description>Цена товара</description>
+        </var>
+        <var>
+            <name>productImg</name>
+            <description>Изображение товара</description>
+        </var>
+        <var>
+            <name>productImgBigFoto</name>
+            <description>Большое изображение товара</description>
+        </var>
+        <var>
+            <name>productValutaName</name>
+            <description>Валюта товара</description>
+        </var>
+        <var>
+            <name>productInfo</name>
+            <description>Ссылка на подробное описание</description>
+        </var>
+        <var>
+            <name>productSale</name>
+            <description>В корзину</description>
+        </var>
+        <var>
+            <name>productSklad</name>
+            <description>Склад</description>
+        </var>
+        <var>
+            <name>productNotice</name>
+            <description>Уведомить</description>
+        </var>
+        <var>
+            <name>optionsDisp</name>
+            <description>Опции товара</description>
+        </var>
+        <var>
+            <name>productDes</name>
+            <description>Описание</description>
+        </var>
+        <var>
+            <name>vendorDisp</name>
+            <description>Характеристики</description>
+        </var>
+        <var>
+            <name>productArt</name>
+            <description>Артикул товара</description>
+        </var>
+    </template>
+
+
+    <template>
+        <name>Форма вывода товара в 2 ячейки</name>
+        <path>product/main_product_forma_2.tpl</path>
+        <description>Форма вывода товара в 2 ячейки</description>
+        <var>
+            <name>productArt</name>
+            <description>Артикул товара</description>
+        </var>
+        <var>
+            <name>productUid</name>
+            <description>ID товара</description>
+        </var>
+        <var>
+            <name>productName</name>
+            <description>Наименование товара</description>
+        </var>
+        <var>
+            <name>productPrice</name>
+            <description>Цена товара</description>
+        </var>
+        <var>
+            <name>productImg</name>
+            <description>Изображение товара</description>
+        </var>
+        <var>
+            <name>productImgBigFoto</name>
+            <description>Большое изображение товара</description>
+        </var>
+        <var>
+            <name>productValutaName</name>
+            <description>Валюта товара</description>
+        </var>
+        <var>
+            <name>productInfo</name>
+            <description>Ссылка на подробное описание</description>
+        </var>
+        <var>
+            <name>productSale</name>
+            <description>В корзину</description>
+        </var>
+        <var>
+            <name>productSklad</name>
+            <description>Склад</description>
+        </var>
+        <var>
+            <name>productNotice</name>
+            <description>Уведомить</description>
+        </var>
+        <var>
+            <name>optionsDisp</name>
+            <description>Опции товара</description>
+        </var>
+        <var>
+            <name>productDes</name>
+            <description>Описание</description>
+        </var>
+        <var>
+            <name>vendorDisp</name>
+            <description>Характеристики</description>
+        </var>
+    </template>
+    
+    <template>
+        <name>Описание бренда</name>
+        <path>product/brand_uid_description.tpl</path>
+        <description>Описание бренда в подробном описании</description>
+        <var>
+            <name>brandPageLink</name>
+            <description>Ссылка на описание бренда</description>
+        </var>
+        <var>
+            <name>brandName</name>
+            <description>Наименование бренда</description>
+        </var>
+        <var>
+            <name>brandIcon</name>
+            <description>Логотоп бренда</description>
+        </var>
+        <var>
+            <name>brandDescr</name>
+            <description>Описание бренда</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Форма вывода товара в 1 ячейку</name>
+        <path>product/main_product_forma_1.tpl</path>
+        <description>Форма вывода товара в 1 ячейку</description>
+        <var>
+            <name>productArt</name>
+            <description>Артикул товара</description>
+        </var>
+        <var>
+            <name>productUid</name>
+            <description>ID товара</description>
+        </var>
+        <var>
+            <name>productName</name>
+            <description>Наименование товара</description>
+        </var>
+        <var>
+            <name>productPrice</name>
+            <description>Цена товара</description>
+        </var>
+        <var>
+            <name>productImg</name>
+            <description>Изображение товара</description>
+        </var>
+        <var>
+            <name>productImgBigFoto</name>
+            <description>Большое изображение товара</description>
+        </var>
+        <var>
+            <name>productValutaName</name>
+            <description>Валюта товара</description>
+        </var>
+        <var>
+            <name>productInfo</name>
+            <description>Ссылка на подробное описание</description>
+        </var>
+        <var>
+            <name>productSale</name>
+            <description>В корзину</description>
+        </var>
+        <var>
+            <name>productSklad</name>
+            <description>Склад</description>
+        </var>
+        <var>
+            <name>productNotice</name>
+            <description>Уведомить</description>
+        </var>
+        <var>
+            <name>optionsDisp</name>
+            <description>Опции товара</description>
+        </var>
+        <var>
+            <name>productDes</name>
+            <description>Описание</description>
+        </var>
+        <var>
+            <name>vendorDisp</name>
+            <description>Характеристики</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Форма вывода товара</name>
+        <path>product/main_product_forma.tpl</path>
+        <description>Форма вывода товара</description>
+        <var>
+            <name>productArt</name>
+            <description>Артикул товара</description>
+        </var>
+        <var>
+            <name>productUid</name>
+            <description>ID товара</description>
+        </var>
+        <var>
+            <name>productName</name>
+            <description>Наименование товара</description>
+        </var>
+        <var>
+            <name>productPrice</name>
+            <description>Цена товара</description>
+        </var>
+        <var>
+            <name>productImg</name>
+            <description>Изображение товара</description>
+        </var>
+        <var>
+            <name>productImgBigFoto</name>
+            <description>Большое изображение товара</description>
+        </var>
+        <var>
+            <name>productValutaName</name>
+            <description>Валюта товара</description>
+        </var>
+        <var>
+            <name>productInfo</name>
+            <description>Ссылка на подробное описание</description>
+        </var>
+        <var>
+            <name>productSale</name>
+            <description>В корзину</description>
+        </var>
+        <var>
+            <name>productSklad</name>
+            <description>Склад</description>
+        </var>
+        <var>
+            <name>productNotice</name>
+            <description>Уведомить</description>
+        </var>
+        <var>
+            <name>optionsDisp</name>
+            <description>Опции товара</description>
+        </var>
+        <var>
+            <name>productDes</name>
+            <description>Описание</description>
+        </var>
+        <var>
+            <name>vendorDisp</name>
+            <description>Характеристики</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Форма однотипов в виде иконок</name>
+        <path>product/main_odnotip_forma_icon.tpl</path>
+        <description>Форма однотипов в виде иконок</description>
+        <var>
+            <name>productUid</name>
+            <description>ID товара</description>
+        </var>
+        <var>
+            <name>productName</name>
+            <description>Наименование товара</description>
+        </var>
+        <var>
+            <name>productPrice</name>
+            <description>Цена товара</description>
+        </var>
+        <var>
+            <name>productImg</name>
+            <description>Изображение товара</description>
+        </var>
+        <var>
+            <name>productImgBigFoto</name>
+            <description>Большое изображение товара</description>
+        </var>
+        <var>
+            <name>productValutaName</name>
+            <description>Валюта товара</description>
+        </var>
+        <var>
+            <name>productInfo</name>
+            <description>Ссылка на подробное описание</description>
+        </var>
+        <var>
+            <name>productSale</name>
+            <description>В корзину</description>
+        </var>
+        <var>
+            <name>productSale</name>
+            <description>В корзину</description>
+        </var>
+    </template>
+
+
+    <template>
+        <name>Страница поиска</name>
+        <path>search/search_page_list.tpl</path>
+        <description>Страница поиска</description>
+        <var>
+            <name>searchString</name>
+            <description>Запрос для поиска</description>
+        </var>
+        <var>
+            <name>searchPageCategory</name>
+            <description>Список каталогов для поиска</description>
+        </var>
+        <var>
+            <name>searchPageSort</name>
+            <description>Сортировка</description>
+        </var>
+        <var>
+            <name>searchSetA</name>
+            <description>Тип поиска И</description>
+        </var>
+        <var>
+            <name>searchSetB</name>
+            <description>Тип поиска ИЛИ</description>
+        </var>
+        <var>
+            <name>searchSetC</name>
+            <description>Область поиска Наименование</description>
+        </var>
+        <var>
+            <name>searchSetD</name>
+            <description>Область поиска Все</description>
+        </var>
+        <var>
+            <name>searchPageNav</name>
+            <description>Навигация</description>
+        </var>
+        <var>
+            <name>productPageDis</name>
+            <description>Место вывода результата поиска</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Форма страницы поиска</name>
+        <path>search/main_search_forma_2.tpl</path>
+        <description>Форма страницы поиска</description>
+        <var>
+            <name>productUid</name>
+            <description>Название товара</description>
+        </var>
+        <var>
+            <name>productArt</name>
+            <description>Артикул товара</description>
+        </var>
+        <var>
+            <name>productImg</name>
+            <description>Изображение товара</description>
+        </var>
+        <var>
+            <name>productName</name>
+            <description>Наименование страницы в результате поиска</description>
+        </var>
+        <var>
+            <name>productDes</name>
+            <description>Описание продукта</description>
+        </var>
+        <var>
+            <name>productPrice</name>
+            <description>Цена товара</description>
+        </var>
+        <var>
+            <name>productValutaName</name>
+            <description>Валюта товара</description>
+        </var>
+        <var>
+            <name>productSklad</name>
+            <description>Склад товара</description>
+        </var>
+        <var>
+            <name>productSale</name>
+            <description>В корзину</description>
+        </var>
+        <var>
+            <name>productNotice</name>
+            <description>Уведомить</description>
+        </var>
+    </template>
+
+	  
+    <template>
+        <name>Страница подбора по характеристикам</name>
+        <path>selection/page_selection_list.tpl</path>
+        <description>Страница подбора по характеристикам</description>
+        <var>
+            <name>DispCatNav</name>
+            <description>Список категорий</description>
+        </var>
+        <var>
+            <name>sortDes</name>
+            <description>Описание характеристики</description>
+        </var>
+        <var>
+            <name>productPageDis</name>
+            <description>Вывод результат подбора</description>
+        </var>
+        <var>
+            <name>productPageNav</name>
+            <description>Навигация</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Страница личного кабинета</name>
+        <path>users/users_page_list.tpl</path>
+        <description>Страница личного кабинета</description>
+        <var>
+            <name>formaTitle</name>
+            <description>Заголовок</description>
+        </var>
+        <var>
+            <name>formaContent</name>
+            <description>Содержание</description>
+        </var>
+    </template>
+
+    <template>
+        <name>Форма навигации в личном кабинете</name>
+        <path>users/users_forma_enter.tpl</path>
+        <description>Форма навигации в личном кабинете</description>
+    </template>
+
+    <template>
+        <name>Форма календаря новостей</name>
+        <path>calendar/calendar_main_forma.tpl</path>
+        <description>Форма календаря новостей</description>
+        <var>
+            <name>yearleft</name>
+            <description>Год назад</description>
+        </var>
+        <var>
+            <name>yearname</name>
+            <description>Наименование года</description>
+        </var>
+        <var>
+            <name>yearright</name>
+            <description>Год вперед</description>
+        </var>
+        <var>
+            <name>monthleft</name>
+            <description>Месяц назад</description>
+        </var>
+        <var>
+            <name>monthname</name>
+            <description>Наименование месяца</description>
+        </var>
+        <var>
+            <name>monthright</name>
+            <description>Месяц вперед</description>
+        </var>
+        <var>
+            <name>dispCalendarDays</name>
+            <description>Место вывода таблицы дней</description>
+        </var>
+    </template>
+</enterprise>

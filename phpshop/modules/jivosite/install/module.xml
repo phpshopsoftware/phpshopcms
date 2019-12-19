@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.1</version>
+    <name>JivoSite</name>
+    <faqlink>http://faq.phpshop.ru/page/jivosite.html</faqlink>
+    <description>Виджет чата и обратного звонка от JivoSite.</description>
+    <category>chat</category>
+    <status>new</status>
+    <adminmenu>
+        <title>JivoSite</title>
+        <capability>true</capability>
+    </adminmenu>
+</module>

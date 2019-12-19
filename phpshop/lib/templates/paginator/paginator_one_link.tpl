@@ -1,0 +1,1 @@
+<a href="@paginLink@" title="@paginPageRangeStart@-@paginPageRangeEnd@" target="" class="" style="text-decoration:underline;">@paginPageRangeStart@-@paginPageRangeEnd@</a> | 

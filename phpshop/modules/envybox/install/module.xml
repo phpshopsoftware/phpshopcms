@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.0</version>
+    <name>Envybox</name>
+    <faqlink>http://faq.phpshop.ru/page/envybox.html</faqlink>
+    <description>Виджет чата и обратного звонка от Envybox.</description>
+    <category>chat</category>
+    <status>new</status>
+    <adminmenu>
+        <title>Envybox</title>
+        <capability>true</capability>
+    </adminmenu>
+</module>

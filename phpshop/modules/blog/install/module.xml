@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.1</version>
+    <name>Блог</name>
+    <faqlink>http://faq.phpshop.ru/page/blog.html</faqlink>
+    <description>Модуль блога.</description>
+    <category>soc</category>
+    <adminmenu>
+        <title>Блог</title>
+        <capability>true</capability>
+        <podmenu>
+            <podmenu_name>Обзор блога</podmenu_name>
+            <podmenu_action>dir.blog</podmenu_action>
+        </podmenu>
+        <podmenu>
+            <podmenu_name>Новая запись в блог</podmenu_name>
+            <podmenu_action>dir.blog&amp;action=new</podmenu_action>
+        </podmenu>
+    </adminmenu>
+</module>

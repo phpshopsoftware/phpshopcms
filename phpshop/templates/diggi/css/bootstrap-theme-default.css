@@ -1,0 +1,66 @@
+
+.bootstrap-theme{
+color:#fff;
+}
+#header-area{
+background:url() no-repeat center;
+background-size:cover;
+}
+#footer-area{
+background:url() no-repeat center;
+background-size:cover;
+}
+#header-area,#footer-area{
+background-color:#2f353b;
+}
+.header-color,.header-color a,.header-color .btn,.header-color h4,.header-links a{
+color:#ffffff !important;
+}
+.product-info-box .heading:before, .product-head, .side-heading, .panel-default > .panel-heading,.panel-success > .panel-heading,.product-col .btn-cart:hover,.product-info .product-details .btn-cart:hover,.btn-primary, .pagination > .active > a{
+background:#3498db !important;
+}
+.comments-raiting-wrapper, .product-col .price span.price-new, .product-col h4 a:hover, .product-col h4 a:focus,.product-info .product-details .manufacturer,.product-info .product-details .price-new,.breadcrumb li.active, .breadcrumb li b{
+color:#0a87cf !important;
+}
+#main-menu > .container .navbar-collapse, #main-menu > .container .navbar-header, #main-menu.navbar-fixed-top, .header-wrap.inner #main-menu.navbar-fixed-top{
+background:#3498db !important;
+}
+.copyright, #cart .dropdown-menu, .btn-success, .btn-info, .btn-main, .btn-primary, .pagination > .active > a{
+background:#303030 !important;
+}
+#main-menu .navbar-form .form-control, #main-menu .navbar-form .btn, #main-menu .navbar-nav > li > a:hover, .dropdown-menu.mega-menu, #main-menu .navbar-nav > li.open a,.main-navbar-list-catalog-wrapper, .user-dropdown > .dropdown-menu,.nav-catalog-dropdown-link.open, .sidebar-nav ul.active, .sidebar-nav ul.active li a, #main-menu .navbar-nav > li.active a{
+background:#1a7eb8 !important;
+}
+.main-navbar-list-catalog-wrapper.open li a:hover, .main-navbar-list-catalog-hidden.active,.user-dropdown > .dropdown-menu li a:hover,.main-navbar-list-catalog-wrapper.open li a.active, .sidebar-nav > li > ul.active > li.active > a, .sidebar-nav ul.active li:hover a, .btn-main:hover{
+background:#125982 !important;
+}
+.product-col .btn-cart,.product-info .product-details .btn-cart{
+background:#0a87cf !important;
+}
+.product-info-box .heading, .sidebar-nav > li > a:hover, .news-list a:hover, .description-link:hover, .product-filter .display label.active,.dl-horizontal.total,.product-info a, .product-col .btn-wishlist:hover, .product-col .btn-wishlist:focus, .product-col .btn-compare:hover, .product-col .btn-compare:focus, a{
+color:#0a87cf;
+}
+.side-heading,#sidebar-right > .panel-default > .panel-heading > h3{
+color:#fff !important;
+}
+.product-info-box .heading{
+background:#fff !important;
+}
+.footer-links a{
+color:#8b8b8b !important;
+}
+.header-links a{
+color:#ffffff !important;
+}
+#main-menu .navbar-nav > li > a, .product-col .btn-cart,.product-info .product-details .btn-cart{
+color:#fff;
+}
+.header-valuta-disp-wrapper .btn-default{
+background:transparent !important;
+}
+.header-top{
+background-color:transparent;
+}
+#cart .btn .fa-shopping-cart{
+background-color:transparent;
+}

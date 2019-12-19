@@ -1,0 +1,191 @@
+.chat-modal-content{
+    height:500px;
+    width:100%;
+    overflow:hidden;
+    border: 0px;
+    margin:0px;
+}
+#chatopenwindow{
+    margin-right:7px;
+}
+.chat{ 
+    position: fixed; bottom: 20px; left: 20px;
+    border-radius: 0 !important;
+    border: 0px;
+    height: 42px;
+    background: #D9D9D9 !important;
+}
+
+.carousel-control.left, .carousel-control.right{
+    background-image: none !important;
+}
+
+/* 
+* PHPShop Editor 
+*/
+.editor_var{
+    overflow: hidden;
+}
+.editor_empty{
+    color:#6C809A;
+    text-align: center;
+    padding:5px;
+    background: #FFE785;
+    border: dashed 1px #6C809A;
+    border-radius:4px;
+    margin:3px;
+}
+.editor_empty a{
+    text-decoration:none !important;
+    color:#6C809A !important;
+}
+body {}
+.navbar-default {}
+.footer {}
+.panel-title{}
+.panel-default{}
+h2{}
+a.template-product-name{}
+
+.progress-scroll {
+    background: #fff url(images/zoomloader.gif) no-repeat center;
+    padding:10px;
+}
+
+.product-tags a{
+    float:left;
+    padding:2px;
+    margin:1px;
+}
+
+header {
+    padding: 10px 0px 10px 0px;
+}
+header a{
+    font-size: 12px;
+}
+header .col-md-12{
+    margin-bottom:10px;
+}
+
+.list-group-item img{
+    max-width: 40px;
+    max-height: 40px;
+    padding:5px;
+
+}
+
+.logo{
+    padding: 10px 0px 10px 0px;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+.news-list a {
+    color:#333333;
+}
+
+table.table-optionsDisp td{
+    padding: 5px 0px 5px 0px;
+}
+
+.news-list a:hover,.template-product-name:hover{
+    text-decoration: none;
+}
+
+form.template-sm{
+    width:60%;
+}
+
+.page-header span{
+    padding-right:3px;
+}
+
+.success-notification {
+    position: fixed;
+    bottom: 5px;
+    right: 20px;
+    max-width: 400px;
+    z-index: 999999;
+}
+
+.template-menu-line{
+    border-bottom:  1px solid #E7E7E7;
+    min-width: 150px;
+}
+
+.template-menu-line b{
+    padding-right:3px;
+}
+
+.template-menu-line:last-child{
+    border-bottom:  0px;
+}
+
+img.template-wishlist-list{
+    max-width: 40px; 
+    max-height: 40px;
+}
+
+label{
+    cursor: pointer;
+}
+
+.template-pad{
+    padding:10px;
+}
+
+.template-slider{
+    margin-bottom:20px;
+}
+
+img.template{
+    border: solid 1px #CCC;
+    padding: 3px;
+    border: solid 1px #CCC;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    margin:3px;
+    cursor:pointer;
+}
+
+img.template:hover{
+    border: solid 1px #BFDBFF;
+    box-shadow: 0 0 5px #BFDBFF;
+}
+
+.bootstrap-theme{
+    width:30px;
+    height:30px;
+    background:#CCC;
+    float:left;
+    padding: 3px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    margin:3px;
+    cursor:pointer;
+}
+
+.bootstrap-theme:hover{
+    border: solid 1px #FFF;
+    box-shadow: 0 0 5px #BFDBFF;
+}
+
+
+@media (max-width:719px){
+
+    .bar-padding-top-fix{
+        padding-top:70px;
+    }
+}
+
+@media only screen and (max-width: 768px) and (orientation : landscape) {
+    .bar, #navigation {
+       position: static !important;
+    }
+}
