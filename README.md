@@ -6,7 +6,9 @@
 Позволяет быстро создавать качественные, функциональные проекты с современным и адаптивным дизайном. 
 
 Сайт проекта: https://www.phpshopcms.ru<br>
-Демо-версия: https://demo.phpshopcms.ru<br>
+Демо-версия (пользовательская часть): https://demo.phpshopcms.ru<br>
+Демо-версия (административная часть): https://demo.phpshopcms.ru/phpshop/admpanel/<br>
+
 Дополнительные шаблоны: https://www.phpshopcms.ru/doc/skin.html<br>
 Форум поддержки: http://forum.phpshopcms.ru<br>
 Сайт разработчика: https://www.phpshop.ru<br>
