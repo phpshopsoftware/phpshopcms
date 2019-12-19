@@ -1,1 +1,0 @@
-<a class="list-group-item"  href="/page/CID_@catalogId@.html">@catalogName@</a>

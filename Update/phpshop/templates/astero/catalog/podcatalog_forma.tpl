@@ -1,1 +1,0 @@
-<li data-cid="/page/CID_@catalogUid@.html" data-cid-parent="@catalogId@"><a href="/page/@catalogLink@.html">@catalogName@</a></li>

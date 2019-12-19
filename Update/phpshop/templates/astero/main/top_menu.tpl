@@ -1,1 +1,0 @@
-<li class="@topMenuActive@"><a href="/page/@topMenuLink@.html">@topMenuName@</a></li>
