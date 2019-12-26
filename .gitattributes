@@ -1,1 +1,2 @@
-phpshop/templates/* linguist-vendored
+* linguist-vendored
+*.php linguist-vendored=false
