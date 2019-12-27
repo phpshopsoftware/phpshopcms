@@ -83,9 +83,10 @@ class PHPShopCat extends PHPShopCore {
 
         // Путь для навигации
         $this->objPath = "/cat/" . $this->name . '.html?p=';
-
+        
         // Выборка данных
-        $this->dataArray = parent::getListInfoItem(array('*'), array('category' => '=' . $this->category, 'enabled' => "='1'"), array('order' => 'num'));
+        $this->dataArray = $this->PHPShopOrm->select(array('*'), array('category' => '=' . $this->category, 'enabled' => "='1'"), array('order' => 'num'), array('limit' => 300));
+
         if (is_array($this->dataArray))
             foreach ($this->dataArray as $row) {
                 $dis.=PHPShopText::li($row['name'], "/" . $row['link'] . ".html");
@@ -95,13 +96,14 @@ class PHPShopCat extends PHPShopCore {
         // Если есть описание каталога
         if (!empty($this->LoadItems['CatalogPage'][$this->category]['content_enabled'])) {
             if ($this->page < 2)
-                $disp.=$this->PHPShopCategory->getContent();
+                $content=$this->PHPShopCategory->getContent();
             elseif ($this->page > 1 and $this->content_in_paginator)
-                $disp.=$this->PHPShopCategory->getContent();
+                $content=$this->PHPShopCategory->getContent();
         }
 
         $disp.=PHPShopText::ul($dis);
 
+        $this->set('catContent', Parser($content));
         $this->set('pageContent', Parser($disp));
         $this->set('pageTitle', $this->category_name);
 
@@ -127,7 +129,7 @@ class PHPShopCat extends PHPShopCore {
         $this->navigation($row['category'], $this->category_name);
 
         // Пагинатор @productPageNav@
-        $this->setPaginator();
+       // $this->setPaginator();
         if (!PHPShopParser::check($this->getValue('templates.page_page_list'), 'productPageNav'))
             $this->set('pageContent', $this->get('productPageNav'), true);
 
@@ -139,24 +141,23 @@ class PHPShopCat extends PHPShopCore {
     }
 
     function ListCategory() {
-
+        
         // Выборка данных
         $PHPShopOrm = new PHPShopOrm($this->getValue('base.table_name'));
         $PHPShopOrm->debug = $this->debug;
         $dataArray = $PHPShopOrm->select(array('name', 'id', 'seoname', 'seotitle', 'seodesc', 'seokey'), array('parent_to' => '=' . $this->category), array('order' => 'num'), array('limit' => 100));
         if (is_array($dataArray))
             foreach ($dataArray as $row) {
-                $dis.=PHPShopText::li($row['name'], $row['link'] . ".html");
+                $dis.=PHPShopText::li($row['name'], $row['seoname'] . ".html");
             }
 
-        // $disp = PHPShopText::h1($this->category_name);
         // Если есть описание каталога
         if (!empty($this->LoadItems['CatalogPage'][$this->category]['content_enabled']))
-            $disp.=$this->PHPShopCategory->getContent();
+            $content=$this->PHPShopCategory->getContent();
 
         $disp.=PHPShopText::ul($dis);
 
-
+        $this->set('catContent', Parser($content));
         $this->set('pageContent', Parser($disp));
         $this->set('pageTitle', $this->category_name);
 

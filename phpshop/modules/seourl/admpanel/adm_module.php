@@ -153,11 +153,11 @@ function actionStart() {
     global $PHPShopGUI;
     
     // Создаем объекты для формы
-    $ContentField1=$PHPShopGUI->setCheckbox("generation",1,"Запустить атоматическую генерацию SeoUrl путем перевода на латиницу имени каталогов.",false);
+    $ContentField1=$PHPShopGUI->setCheckbox("generation",1,"Запустить автоматическую генерацию SeoUrl путем перевода на латиницу имени каталогов.",false);
     $ContentField1.=$PHPShopGUI->setLine();
-    $ContentField1.=$PHPShopGUI->setCheckbox("generationnews",1,"Запустить атоматическую генерацию SeoUrl путем перевода на латиницу заголовков новостей.",false);
+    $ContentField1.=$PHPShopGUI->setCheckbox("generationnews",1,"Запустить автоматическую генерацию SeoUrl путем перевода на латиницу заголовков новостей.",false);
     $ContentField1.=$PHPShopGUI->setLine();
-    $ContentField1.=$PHPShopGUI->setCheckbox("generationphoto",1,"Запустить атоматическую генерацию SeoUrl путем перевода на латиницу имени фото-каталогов.",false);
+    $ContentField1.=$PHPShopGUI->setCheckbox("generationphoto",1,"Запустить автоматическую генерацию SeoUrl путем перевода на латиницу имени фото-каталогов.",false);
     
     // Содержание закладки 1
     $Tab1=$PHPShopGUI->setField("Автогенерация",$ContentField1);
