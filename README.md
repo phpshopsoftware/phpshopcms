@@ -10,5 +10,4 @@
 Демо-версия (административная часть): https://demo.phpshopcms.ru/phpshop/admpanel/<br>
 
 Дополнительные шаблоны: https://www.phpshopcms.ru/doc/skin.html<br>
-Форум поддержки: http://forum.phpshopcms.ru<br>
 Сайт разработчика: https://www.phpshop.ru<br>
