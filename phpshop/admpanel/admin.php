@@ -195,16 +195,12 @@ if (empty($adm_title)) {
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Справка <span class="caret"></span></a>
                                 <ul class="dropdown-menu" role="menu">
                                     <li><a href="?path=system.about">О программе</a></li>
-                                    <li class="divider"></li>
-                                    <li><a href="http://wiki.phpshopcms.ru" target="_blank">Учебник</a></li>
-                                    <li><a href="http://forum.phpshopcms.ru" target="_blank">Техподдержка</a></li>
                                     <li><a href="#" id="presentation-select">Обучение</a></li>
                                     <li><a href="http://idea.phpshop.ru" target="_blank">Предложить идею</a></li>
                                     <li class="divider"></li>
                                     <li class="dropdown-header">Дополнительно</li>
-                                     <li><a href="http://www.phpshop.ru/page/yandex-webmaster.html" target="_blank">SEO оптимизация</a></li>
-                                    <li><a href="http://www.phpshop.ru/page/start.html?from=<?= $_SERVER['SERVER_NAME']?>" target="_blank">Платная версия магазина</a></li>
-                                    <li><a href="http://www.phpshop.ru/loads/files/setup.exe" target="_blank">Утилиты EasyControl</a></li>
+                                    <li><a href="https://www.phpshop.ru/?from=<?= $_SERVER['SERVER_NAME']?>" target="_blank">Платная версия магазина</a></li>
+                                    <li><a href="https://www.phpshop.ru/loads/files/setup.exe" target="_blank">Утилиты EasyControl</a></li>
                                     <li><a href="https://beget.com/p566" target="_blank">Хостинг сайта</a></li>
                                     <li class="divider"></li>
                                     <li><a href="?path=update"><span class="glyphicon glyphicon-cloud-download"></span> Мастер обновления</a></li>
