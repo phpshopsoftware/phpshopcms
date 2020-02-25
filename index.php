@@ -4,7 +4,7 @@
  * Загрузчик ядра
  * @author PHPShop Software
  * @version PHPShop.CMS Free 5.3
- * @copyright PHPShop LLC © 2004-2018
+ * @copyright PHPShop LLC © 2004-2020
  * @license https://www.phpshopcms.ru/doc/license.html
  */
 //  UTF-8 Default Charset Fix
