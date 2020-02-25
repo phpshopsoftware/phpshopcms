@@ -5,7 +5,6 @@
     <faqlink>http://faq.phpshop.ru/page/jivosite.html</faqlink>
     <description>Виджет чата и обратного звонка от JivoSite.</description>
     <category>chat</category>
-    <status>new</status>
     <adminmenu>
         <title>JivoSite</title>
         <capability>true</capability>

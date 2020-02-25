@@ -5,7 +5,6 @@
     <faqlink>http://faq.phpshop.ru/page/envybox.html</faqlink>
     <description>Виджет чата и обратного звонка от Envybox.</description>
     <category>chat</category>
-    <status>new</status>
     <adminmenu>
         <title>Envybox</title>
         <capability>true</capability>

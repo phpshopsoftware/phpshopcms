@@ -5,7 +5,6 @@
     <description>Прием оплат через NextPay в соответствии с 54-ФЗ.</description>
     <category>payment</category>
     <faqlink>http://faq.phpshop.ru/page/nextpay.html</faqlink>
-    <status>update</status>
     <adminmenu>
         <title>NextPay</title>
         <capability>true</capability>
