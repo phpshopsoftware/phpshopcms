@@ -322,7 +322,6 @@ if (isset($_POST['install'])) {
     <body role="document">
 
         <div class="container">
-
             <div class="page-header">
                 <ul class="nav nav-pills pull-right hidden-sm hidden-xs">
                     <li role="presentation"><a href="#p2">Настройка</a></li>
@@ -335,7 +334,6 @@ if (isset($_POST['install'])) {
                 <li><a href="https://www.phpshopcms.ru"><?php echo $brand; ?></a></li>
                 <li class="active">Установка</li>
             </ol>
-
 
             <?php
             if (!empty($done)) {
