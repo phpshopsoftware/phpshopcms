@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.0</version>
+    <name>Google Translate</name>
+    <faqlink>https://docs.phpshop.ru/moduli/chaty-i-zvonki/googletranslate</faqlink>
+    <description>Виджет переводчика Google Translate.</description>
+    <category>chat</category>
+    <status>New</status>
+     <adminmenu>
+        <title>Google Translate</title>
+        <capability>true</capability>
+    </adminmenu>
+</module>
