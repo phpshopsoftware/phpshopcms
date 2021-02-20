@@ -12,5 +12,4 @@
 </div>
 
 <p>@pageContent@</p>
-
 <p>@productPageNav@</p>

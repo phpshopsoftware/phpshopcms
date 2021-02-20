@@ -36,7 +36,7 @@ class PHPShopPage extends PHPShopCore {
      * @return string
      */
     function index($link = false) {
-       
+
         // Безопасность
         if (empty($link))
             $link = PHPShopSecurity::TotalClean($this->PHPShopNav->getName(true), 2);
@@ -118,25 +118,20 @@ class PHPShopPage extends PHPShopCore {
 
         // Путь для навигации
         $this->objPath = "/page/CID_" . $this->category . '_';
-
+        $this->where = array('category' => '=' . $this->category, 'enabled' => "='1'");
 
         // Выборка данных
-        $dataArray = $this->PHPShopOrm->select(array('*'), array('category' => '=' . $this->category, 'enabled' => "='1'"), array('order' => 'num'), array('limit' => 100));
-        
+        $dataArray = $this->PHPShopOrm->select(array('*'), $this->where, array('order' => 'num'), array('limit' => 300));
 
         if (is_array($dataArray)) {
 
             if (count($dataArray) > 1)
                 foreach ($dataArray as $row) {
-                    $dis.=PHPShopText::li($row['name'], '/page/' . $row['link'] . '.html');
-
-                }
-            else {
+                    $dis .= PHPShopText::li($row['name'], '/page/' . $row['link'] . '.html');
+                } else {
                 return $this->index($dataArray[0]['link']);
             }
         }
-
-
 
         //$disp = PHPShopText::h1($this->category_name);
         $disp = null;
@@ -144,15 +139,14 @@ class PHPShopPage extends PHPShopCore {
         // Если есть описание каталога
         if (!empty($this->LoadItems['CatalogPage'][$this->category]['content_enabled'])) {
             if ($this->page < 2)
-                $disp.=$this->PHPShopCategory->getContent();
+                $disp .= $this->PHPShopCategory->getContent();
             elseif ($this->page > 1 and $this->content_in_paginator)
-                $disp.=$this->PHPShopCategory->getContent();
+                $disp .= $this->PHPShopCategory->getContent();
         }
 
 
-
         // Список страниц
-        $disp.=PHPShopText::ul($dis);
+        $disp .= PHPShopText::ul($dis);
 
         // Описание каталога
         $this->set('pageContent', Parser($disp));
@@ -161,13 +155,12 @@ class PHPShopPage extends PHPShopCore {
         $this->set('pageTitle', $this->category_name);
 
         // Пагинатор @productPageNav@
-        $this->setPaginator();
+        //$this->setPaginator();
 
         // Номер страницы в заголовке
         if ($this->page > 1) {
             $page_num = $this->page . ' - ';
-        }
-        else
+        } else
             $page_num = null;
 
         if (!PHPShopParser::check($this->getValue('templates.page_page_list'), 'productPageNav'))
@@ -197,16 +190,16 @@ class PHPShopPage extends PHPShopCore {
         $dataArray = $PHPShopOrm->select(array('name', 'id'), array('parent_to' => '=' . $this->category), array('order' => 'num'), array('limit' => 100));
         if (is_array($dataArray))
             foreach ($dataArray as $row) {
-                $dis.=PHPShopText::li($row['name'], "/page/CID_" . $row['id'] . ".html");
+                $dis .= PHPShopText::li($row['name'], "/page/CID_" . $row['id'] . ".html");
             }
 
         $disp = PHPShopText::h1($this->category_name);
 
         // Если есть описание каталога
         if (!empty($this->LoadItems['CatalogPage'][$this->category]['content_enabled']))
-            $disp.=$this->PHPShopCategory->getContent();
+            $disp .= $this->PHPShopCategory->getContent();
 
-        $disp.=PHPShopText::ul($dis);
+        $disp .= PHPShopText::ul($dis);
 
         $this->set('pageContent', Parser($disp));
         $this->set('pageTitle', $this->category_name);
