@@ -13,7 +13,7 @@ function actionStart() {
 
     // Содержание закладки 1
     $Tab1 = $PHPShopGUI->setField("Имя:", $PHPShopGUI->setInput("text", "name_new", $data['name'], false, 500)) .
-            $PHPShopGUI->setField("Статус:", $PHPShopGUI->setRadio("enabled_new", 1, "Включить", $data['enabled']) . $PHPShopGUI->setRadio("flag_new", 0, "Выключить", $data['flag']));
+            $PHPShopGUI->setField("Статус:", $PHPShopGUI->setRadio("enabled_new", 1, "Включить", $data['enabled']) . $PHPShopGUI->setRadio("enabled_new", 0, "Выключить", $data['enabled']));
 
 
     // Редактор 
