@@ -10,6 +10,7 @@ function tab_menu() {
        <li class="' . $menu_active_system . '"><a href="?path=system">Основные настройки</a></li>
        <li class="' . $menu_active_seo . '"><a href="?path=system.seo">SEO настройки</a></li>
        <li class="' . $menu_active_image . '"><a href="?path=system.image">Изображения</a></li>
+       <li class="' . $menu_active_integration . '"><a href="?path=system.integration">Интеграция</a></li>
        <li><a href="?path=tpleditor">Шаблоны дизайна</a></li>
        </ul>';
     
