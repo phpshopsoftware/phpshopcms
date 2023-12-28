@@ -13,8 +13,8 @@ function actionStart() {
 
 
     // Содержание закладки 1
-    $Tab1 = $PHPShopGUI->setCollapse(__('Информация'), $PHPShopGUI->setField("Название программы", '<a class="btn btn-sm btn-default" href="http://www.phpshop.ru/page/cmsfree.html" target="_blank"><span class="glyphicon glyphicon-info-sign"></span> PHPShop CMS Free</a>') .
-            $PHPShopGUI->setField("Версия программы", '<a class="btn btn-sm btn-default" href="http://www.phpshop.ru/docs/update.html" target="_blank"><span class="glyphicon glyphicon-info-sign"></span> ' . substr($version, 0, strlen($version) - 1) . '</a>'), 'in', false
+    $Tab1 = $PHPShopGUI->setCollapse(__('Информация'), $PHPShopGUI->setField("Название программы", '<a class="btn btn-sm btn-default" href="http://www.phpshopcms.ru" target="_blank"><span class="glyphicon glyphicon-info-sign"></span> PHPShop CMS Free</a>') .
+            $PHPShopGUI->setField("Версия программы", '<span class="btn btn-sm btn-default"><span class="glyphicon glyphicon-info-sign"></span> ' . substr($version, 0, strlen($version) - 1) . '</span>'), 'in', false
     );
     $Tab1 .=$PHPShopGUI->setField("Версия PHP", phpversion(), false, false, false, 'text-right') .
             $PHPShopGUI->setField("Версия MySQL", @mysqli_get_server_info($PHPShopBase->link_db), false, false, false, 'text-right') .

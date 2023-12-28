@@ -197,11 +197,11 @@ if (empty($adm_title)) {
                                     <li><a href="?path=system.about">О программе</a></li>
                                     <li class="divider"></li>
                                     <li><a href="https://docs.phpshop.ru" target="_blank">Учебник</a></li>
-                                    <li><a href="http://forum.phpshopcms.ru" target="_blank">Техподдержка</a></li>
+                                    <li><a href="https://help.phpshop.ru" target="_blank">Техподдержка</a></li>
                                     <li><a href="#" id="presentation-select">Обучение</a></li>
                                     <li class="divider"></li>
                                     <li class="dropdown-header">Дополнительно</li>
-                                    <li><a href="https://www.phpshop.ru/?from=<?= $_SERVER['SERVER_NAME']?>" target="_blank">Платная версия магазина</a></li>
+                                    <li><a href="https://www.phpshop.ru/order/?from=<?= $_SERVER['SERVER_NAME']?>" target="_blank">Платная версия</a></li>
                                     <li><a href="https://beget.com/p566" target="_blank">Хостинг сайта</a></li>
                                     <li class="divider"></li>
                                     <li><a href="?path=update"><span class="glyphicon glyphicon-cloud-download"></span> Мастер обновления</a></li>

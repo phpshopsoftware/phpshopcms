@@ -1,20 +1,21 @@
 <?php
-
 /**
- * Загрузчик ядра
- * @author PHPShop Software
- * @version PHPShop.CMS Free 5.3
- * @copyright PHPShop LLC © 2004-2020
- * @license https://www.phpshopcms.ru/doc/license.html
- */
++------------------------------------------------------+
+|  PHPShop 5.4                                          |
+|  Copyright © PHPShop, 2004-2023                       |
+|  Все права защищены. ИП Туренко Д.Л.                  |
+|  https://www.phpshopcms.ru/doc/license5.html          |
++-------------------------------------------------------+
+**/
+
 //  UTF-8 Default Charset Fix
 if (stristr(ini_get("default_charset"), "utf")) {
     ini_set("default_charset", "cp1251");
 }
 
 // PHP Version Warning
-if (floatval(phpversion()) < 5.2) {
-    exit("PHP " . phpversion() . " is not supported");
+if (floatval(phpversion()) < 5.2 or floatval(phpversion()) > 7.4) {
+    exit("PHP " . phpversion() . " is not supported, only PHP 5.3 - 7.4");
 }
 
 // Запускаем сессию
