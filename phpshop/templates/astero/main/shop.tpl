@@ -267,7 +267,7 @@
                 <!-- Ends -->
                 <!-- Payment Gateway Links Starts -->
                 <ul class="pull-right list-inline">
-                    <span class="text-muted visible-lg visible-md small">Работает под управлением <a href="http://www.phpshopcms.ru/" class="sgfooter" target="_blank" title="PHPShop.CMS Free"><span class="glyphicon glyphicon-cog"></span> PHPShop.CMS Free</a></span>
+                    <span class="text-muted visible-lg visible-md small">Работает под управлением <a href="http://www.phpshopcmsfree.ru/" class="sgfooter" target="_blank" title="PHPShop.CMS Free"><span class="glyphicon glyphicon-cog"></span> PHPShop.CMS Free</a></span>
                 </ul>
                 <!-- Payment Gateway Links Ends -->
             </div>

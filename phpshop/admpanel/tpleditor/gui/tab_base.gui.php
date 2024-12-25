@@ -40,7 +40,7 @@ function tab_base($data) {
                 $mes = null;
             }
 
-            $img_list.='<div class="col-md-3"><div class="panel '.$panel.'"><div class="panel-heading">' . $row['name'] .$mes. '<span class="glyphicon glyphicon-plus pull-right btn ' . $main . ' btn-xs skin-load" data-path="' . $row['name'] . '" data-toggle="tooltip" data-placement="top" title="' . __('Загрузить') . '"></span></div><div class="panel-body text-center"><img class="image-shadow" src="https://www.phpshopcms.ru'  . $row['icon'] . '"></div></div></div>';
+            $img_list.='<div class="col-md-3"><div class="panel '.$panel.'"><div class="panel-heading">' . $row['name'] .$mes. '<span class="glyphicon glyphicon-plus pull-right btn ' . $main . ' btn-xs skin-load" data-path="' . $row['name'] . '" data-toggle="tooltip" data-placement="top" title="' . __('Загрузить') . '"></span></div><div class="panel-body text-center"><img class="image-shadow" src="https://www.phpshopcmsfree.ru'  . $row['icon'] . '"></div></div></div>';
 
             if ($i == 4) {
                 $img_list.='</div>';

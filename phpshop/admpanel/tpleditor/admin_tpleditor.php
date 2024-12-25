@@ -3,7 +3,7 @@
 // Заголовок
 $TitlePage = __("Редактор шаблонов");
 
-$skin_base_path = 'http://template.phpshopcms.ru/';
+$skin_base_path = 'http://template.phpshopcmsfree.ru/';
 
 function _tpl($file) {
 
@@ -119,7 +119,7 @@ function actionStart() {
 
     $PHPShopGUI->action_select['Магазин'] = array(
         'name' => 'Магазин шаблонов',
-        'url' => 'http://template.phpshopcms.ru',
+        'url' => 'http://template.phpshopcmsfree.ru',
         'target' => '_blank'
     );
 
@@ -302,7 +302,7 @@ function actionStart() {
 
     $tree.='</table>';
     
-        $market='<p class="text-muted hidden-xs data-row">PHPShop.Market предлагает более 3000 уникальных и современных дизайнов для PHPShop. <a href="http://template.phpshopcms.ru/?from='.$_SERVER['SERVER_NAME'].'" target="_blank"><span class="glyphicon glyphicon-shopping-cart"></span>Выбрать дизайн</a></p>';
+        $market='<p class="text-muted hidden-xs data-row">PHPShop.Market предлагает более 3000 уникальных и современных дизайнов для PHPShop. <a href="http://template.phpshopcmsfree.ru/?from='.$_SERVER['SERVER_NAME'].'" target="_blank"><span class="glyphicon glyphicon-shopping-cart"></span>Выбрать дизайн</a></p>';
 
     // Вывод кнопок сохранить и выход в футер
     $ContentFooter = $PHPShopGUI->setInput("submit", "editID", "Применить", "right", 80, "", "but", "actionSave.system.edit");
@@ -341,7 +341,7 @@ function actionSave() {
 // Загрузка дополнительных шаблонов
 function actionLoad() {
     global $skin_base_path, $_classPath;
-    $skin_base_path='https://www.phpshopcms.ru';
+    $skin_base_path='https://www.phpshopcmsfree.ru';
 
     $success = false;
     if (PHPShopSecurity::true_skin($_POST['template_load'])) {

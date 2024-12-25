@@ -2,9 +2,9 @@
 /**
 +------------------------------------------------------+
 |  PHPShop 5.4                                          |
-|  Copyright © PHPShop, 2004-2023                       |
+|  Copyright © PHPShop, 2004-2024                       |
 |  Все права защищены. ИП Туренко Д.Л.                  |
-|  https://www.phpshopcms.ru/doc/license5.html          |
+|  https://www.phpshopcmsfree.ru/doc/license5.html          |
 +-------------------------------------------------------+
 **/
 

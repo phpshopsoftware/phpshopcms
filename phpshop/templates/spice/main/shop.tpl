@@ -271,7 +271,7 @@
             <div class="copyright">
                 <!-- Container Starts -->
                 <div class="container">
-                    <div class="pull-right"> <span class="text-muted visible-lg visible-md small">Работает под управлением <a href="http://www.phpshopcms.ru/" class="sgfooter" target="_blank" title="PHPShop.CMS Free"><span class="glyphicon glyphicon-cog"></span> PHPShop.CMS Free</a></span></div>
+                    <div class="pull-right"> <span class="text-muted visible-lg visible-md small">Работает под управлением <a href="http://www.phpshopcmsfree.ru/" class="sgfooter" target="_blank" title="PHPShop.CMS Free"><span class="glyphicon glyphicon-cog"></span> PHPShop.CMS Free</a></span></div>
                     <p itemscope itemtype="http://schema.org/Organization">© <span itemprop="name">@company@</span> @year@, Тел: <span itemprop="telephone">@telNum@</span>, <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">Адрес: <span itemprop="streetAddress">@streetAddress@</span></span><span itemprop="email" class="hide">@adminMail@</span></p>
                 </div>
                 <!-- Container Ends -->

@@ -43,7 +43,7 @@ function tab_license() {
     <p>
         <strong>Контактная информация</strong><br>
         Адрес сайта разработчика: <a href="https://www.phpshop.ru" target="_blank">phpshop.ru</a> <br>
-        Адрес сайта проекта: <a href="http://www.phpshopcms.ru" target="_blank">phpshopcms.ru</a> <br>
+        Адрес сайта проекта: <a href="http://www.phpshopcmsfree.ru" target="_blank">phpshopcmsfree.ru</a> <br>
         E-mail администрации: <a href="mailto:mail@phpshop.ru">mail@phpshop.ru</a></p>
     <p>
         <input type="checkbox" checked disabled> Я принимаю условия лицензионного соглашения.

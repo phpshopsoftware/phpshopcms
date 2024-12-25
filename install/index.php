@@ -12,8 +12,8 @@ $brand = 'PHPShop.CMS Free ' . substr($version, 0, 5);
 $ok = '<span class="glyphicon glyphicon-ok text-success pull-right"></span>';
 $error = '<span class="glyphicon glyphicon-remove text-danger pull-right"></span>';
 
-// Apache
-if (strstr($_SERVER['SERVER_SOFTWARE'], 'Apache') or strstr($_SERVER['SERVER_SOFTWARE'], 'LiteSpeed')) {
+// Server
+if (stristr($_SERVER['SERVER_SOFTWARE'], 'Apache') or stristr($_SERVER['SERVER_SOFTWARE'], 'LiteSpeed') or stristr($_SERVER['SERVER_SOFTWARE'], 'nginx')) {
     $API = $ok;
     $api_style = null;
 } else {
@@ -39,8 +39,7 @@ else
     $mysql = $ok;
 
 // GD Support
-$GD = gd_info();
-if (!empty($GD['GD Version']))
+if (function_exists("gd_info"))
     $gd_support = $ok;
 else
     $gd_support = $error;
@@ -283,7 +282,7 @@ elseif (!empty($_POST['password'])) {
                 <li class="active"><?php echo $brand; ?></li>
             </ol>
             <p class="lead">
-                На этой странице вы найдет всю необходимую информацию для установки и настройки Интернет-магазина
+                На этой странице вы найдет всю необходимую информацию для установки и настройки PHPShop
             </p>
 
             <?php
@@ -305,7 +304,7 @@ elseif (!empty($_POST['password'])) {
                     <h3 class="panel-title"><span class="glyphicon glyphicon-signal"></span> Соответствие системным требованиям</h3>
                 </div>
                 <ul class="list-group">
-                    <li class="list-group-item">Apache <?php echo $API ?>
+                    <li class="list-group-item">Веб-сервер <?php echo $API ?>
                     <li class="list-group-item">MySQL<?php echo $mysql ?>
                     <li class="list-group-item">PHP<?php echo $php ?>
                     <li class="list-group-item">GD Support для PHP <?php echo $gd_support ?>
@@ -442,7 +441,7 @@ dbase="mybase";         # имя базы</pre>
         <footer class="footer">
             <div class="container">
                 <p class="text-muted text-center">
-                    Перейти <a href="https://www.phpshopcms.ru" target="_blank" title="Разработчик"><span class="glyphicon glyphicon-home"></span>домой</a> или воспользоваться <a href="http://forum.phpshopcms.ru" target="_blank" title="Техническая поддержка"><span class="glyphicon glyphicon-user"></span>технической поддержкой</a>
+                    Перейти <a href="https://www.phpshopcmsfree.ru" target="_blank" title="Разработчик"><span class="glyphicon glyphicon-home"></span>домой</a> или воспользоваться <a href="https://help.phpshop.ru" target="_blank" title="Техническая поддержка"><span class="glyphicon glyphicon-user"></span>технической поддержкой</a>
                 </p>
             </div>
         </footer>
@@ -490,8 +489,7 @@ dbase="mybase";         # имя базы</pre>
 
                                 <p><b>5. Условия технической поддержки</b>
 
-                                    <br> 5.1. Устанавливая Продукт, Пользователь может получить бесплатную техническую поддержку от других пользователей Продукта по добровольному согласию Пользователей. Бесплатные консультации проводятся в специальном разделе сайта службы бесплатной технической поддержки Продукта <a target="_blank" href="http://forum.phpshopcms.ru/">forum.phpshopcms.ru</a>.
-                                    <br> 5.2. Пользователь может получить <b>платную техническую поддержку от разработчика</b>. Платные консультации проводятся в специальном разделе сайта службы платной технической поддержки <a target="_blank" href="https://help.phpshop.ru/">help.phpshop.ru</a> по рабочим дням (за исключением выходных и нерабочих праздничных дней Российской Федерации) с 10 до 18 часов московского времени. 
+                                    <br> 5.1. Пользователь может получить <b>платную техническую поддержку от разработчика</b>. Платные консультации проводятся в специальном разделе сайта службы платной технической поддержки <a target="_blank" href="https://help.phpshop.ru/">help.phpshop.ru</a> по рабочим дням (за исключением выходных и нерабочих праздничных дней Российской Федерации) с 10 до 18 часов московского времени. 
 
                                 <p>6.<b>	Изменение и расторжение соглашения</b>
                                     <br>6.1.	В случае невыполнения пользователем одного из вышеуказанных положений, Автор имеет право в одностороннем порядке расторгнуть настоящее соглашение, уведомив об этом пользователя.

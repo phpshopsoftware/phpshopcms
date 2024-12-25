@@ -159,7 +159,7 @@
                     </form>   
                 </span>
                 <p itemscope itemtype="http://schema.org/Organization">&copy; <span itemprop="name">@company@</span> @year@, Тел: <span itemprop="telephone">@telNum@</span>, <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">Адрес: <span itemprop="streetAddress">@streetAddress@</span></span> <span itemprop="email" class="hide">@maill@</span> 
-                    <span class="text-muted visible-lg visible-md small">Работает под управлением <a href="http://www.phpshopcms.ru/" class="sgfooter" target="_blank" title="PHPShop CMS Free">PHPShop.CMS Free</a>.</span></p>
+                    <span class="text-muted visible-lg visible-md small">Работает под управлением <a href="http://www.phpshopcmsfree.ru/" class="sgfooter" target="_blank" title="PHPShop CMS Free">PHPShop.CMS Free</a>.</span></p>
             </footer>
         </div>
 
